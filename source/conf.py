@@ -54,9 +54,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Ethereum Homestead'
-copyright = u'2016, Ethereum community'
-author = u'Ethereum community'
+project = u'Nexty Documentation'
+copyright = u'2018, Nexty platform'
+author = u'Nexty platform'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -234,8 +234,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'homesteadguide.tex', u'Ethereum Homestead Documentation',
-   u'Ethereum community', 'manual'),
+  (master_doc, 'homesteadguide.tex', u'Nexty Documentation',
+   u'Nexty community', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Ethereum Homestead Documentation
+Nexty Documentation
 ===============================================================================
 
-..  image:: img/ethereum-homestead-documentation-logo.png
+..  image:: img/logo-nty.png
 ..   :height: 500px
 ..   :width: 394 px
    :scale: 50 %
@@ -14,11 +14,11 @@ Ethereum Homestead Documentation
    :align: center
 
 This documentation is the result of an ongoing collaborative effort by
-volunteers from the Ethereum :ref:`community`.  Although it has not been
+volunteers from the Nexty :ref:`community`.  Although it has not been
 authorized by the :ref:`foundation`, we hope you will find it useful.
 We welcome new :ref:`contributors`. Note that sections of this guide
 may be outdated. The Guide may be considered to be a historic reference
-since Ethereum had the Metropolis phase 1 fork, `Constantinople <https://eips.ethereum.org/EIPS/eip-609>`_.
+since Nexty had the Metropolis phase 1 fork, `Constantinople <https://eips.ethereum.org/EIPS/eip-609>`_.
 An alternative documentation base may be used at https://github.com/ethereum/wiki/wiki
 ("the Wiki"), which is being actively maintained, and is also freely
 editable by anyone with a GitHub account (while editing this repo requires
