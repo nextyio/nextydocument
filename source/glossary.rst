@@ -114,12 +114,6 @@ Glossary
    contract
       A persistent piece of code on the Ethereum blockchain that encompasses a set of data and executable functions. These functions execute when Ethereum transactions are made to them with certain input parameters. Based on the input parameters, the functions will execute and interact with data within and outside of the contract.
 
-   suicide
-      See self-destruct. ``selfdestruct`` acts as an alias to the deprecated ``suicide`` terminology in accordance with `EIP 6 \- Renaming SUICIDE OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_.
-
-   selfdestruct
-      A global variable in the Solidity language that allows you to `\"destroy the current contract, sending its funds to the given address\" <https://solidity.readthedocs.org/en/latest/miscellaneous.html#global-variables>`_. ``selfdestruct`` acts as an alias to the deprecated ``suicide`` terminology in accordance with `EIP 6 \- Renaming SUICIDE OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_. It frees up space on the blockchain and prevents future execution of the contract. The contract's address will still persist, but ether sent to it will be lost forever. The possibility to kill a contract has to be implemented by the contract creator him/herself using the Solidity ``selfdestruct`` function.
-
    transaction fee
       Also known as gas cost, it is the amount of ether that the miners will charge for the execution of your transaction.
 
@@ -169,7 +163,7 @@ Glossary
       Serpent is a high-level language whose syntax is similar to that of Python and it is designed to compile to code for the Ethereum Virtual Machine.
 
    EVM
-      Ethereum Virtual Machine, the decentralized computing platform which forms the core of the Ethereum platform.
+      Ethereum Virtual Machine, the decentralized computing platform which forms the core of the Nexty platform.
 
    virtual machine
       In computing, it refers to an emulation of a particular computer system.
@@ -190,20 +184,24 @@ Glossary
       Number Used Once or Number Once. A nonce, in information technology, is a number generated for a specific use, such as session authentication. Typically, a nonce is some value that varies with time, although a very large random number is sometimes used. In general usage, nonce means “for the immediate occasion” or “for now.”
       In the case of Blockchain Proof of Work scenarios, the hash value, found by a Miner, matching the network's Difficulty thus proving the Block Validity is called Nonce as well.
 
+   smart-staking
+      It will continue to generate dividend each and everyday when frozen. Freezing by Smart Staking program offers you even greater benefit. Smart Staking means no online mode for maintenance as Staking normally but still earns an increment. For more detailed Smart Staking program.
+
+   DCCS
+      Processes NTY transaction without a fee instantly. NTF will be used to verify NTY transactions and owners of NTF will receive rewards at the end of each month instead of receiving immediate transaction verification fees as commonly found in other Cryptocurrencies. Moreover, only NTF holders have privileges to mine NTY.
+
    proof-of-work
       Often seen in its abbreviated form "PoW", it refers to a mathematical value that can act as the proof of having solved a resource and time consuming computational problem.
 
    proof-of-stake
       An alternative method of mining blocks that require miners to demonstrate their possession of a certain amount of the currency of the network in question. This works on the principle that miners will be disincentivized to try to undermine a network in which they have a stake. PoS is less wasteful than PoW, but is still often used together with it to provide added security to the network.
 
-   CASPER
-      Casper is a security-deposit based economic consensus protocol. This means that nodes, so called “bonded validators”, have to place a security deposit (an action we call “bonding”) in order to serve the consensus by producing blocks. If a validator produces anything that Casper considers “invalid”, the deposit is forfeited along with the privilege of participating in the consensus process.
+  proof-of-foundation
+      In addition to NTY coin-base, DCCS has the secondary token named NTF. NTF is used for authorizing an account to become the maintainer/sealer of the confirmation system described detail in section 2, as well as to calculate reward for block sealer. NTF token has total supply of 10, 000, 000 and will be distributed for the first 100, 000, 000, 000 NTY holders that joined in “Smart Staking” program described detail in the white paper of Nexty [2017]. In the other words, NTF will be rewarded to the pioneers having a clear vision and a strong believe in Nexty Platform in the future. That’s the reason why we call the new consensus protocol as “Proof of Foundation”
 
    consensus
       The agreement among all nodes in the network about the state of the Ethereum network.
 
-   homestead
-      Homestead is the second major version release of the Ethereum platform. Homestead includes several protocol changes and a networking change that makes possible further network upgrades: `EIP\-2 Main homestead hardfork changes <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_; `EIP\-7 Hardfork EVM update (DELEGATECALL) <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md>`_; `EIP\-8 devp2p forward compatibility <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md>`_. Homestead will launch when block 1,150,000 is reached on the Mainnet. On the Testnet, Homestead will launch at block 494,000.
 
    metropolis
       The third stage of Ethereum's release. This is the stage when the user interfaces come out (e.g. Mist), including a dapp store, and non-technical users should feel comfortable joining at this point.
@@ -279,9 +277,6 @@ Glossary
 
    merkle patricia tree
       Merkle Patricia trees provide a cryptographically authenticated data structure that can be used to store all (key, value) bindings. They are fully deterministic, meaning that a Patricia tree with the same (key,value) bindings is guaranteed to be exactly the same down to the last byte and therefore have the same root hash, provide O(log(n)) efficiency for inserts, lookups and deletes, and are much easier to understand and code than more complex comparison-based alternatives like red-black trees.
-
-   DAG
-      DAG stands for Directed Acyclic Graph. It is a graph, a set of nodes and links between nodes, that has very special properties. Ethereum uses a DAG in Ethash, the Ethereum Proof of Work (POW) algorithm.The Ethash DAG takes a long time to be generated, which is done by a Miner node into a cache file for each Epoch. The file data is then used when a value from this graph is required by the algorithm.
 
    uncle rate
       The number of uncles produced per block.
@@ -396,27 +391,6 @@ Glossary
 
    block(chain) explorer
       A website that allows easy searching and extraction of data from the blockchain.
-
-   geth
-      Ethereum client implemented in the Golang programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   eth
-      Ethereum client implemented in the C++ programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   ethereumjs
-      Ethereum client implemented in the Javascript/Node programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   pyethereum
-      Ethereum client implemented in the Python programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   ethereumj
-      Ethereum client implemented in the Java programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   ethereumh
-      Ethereum client implemented in the Haskell programming language, based on the protocol as defined in the Ethereum Yellow Paper.
-
-   parity
-      Ethereum client implemented in the Rust programming language, based on the protocol as defined in the Ethereum Yellow Paper.
 
    difficulty
       In very general terms, the amount of effort required to mine a new block. With the launch of Homestead, the `difficulty adjustment algorithm will change <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.md>`_.

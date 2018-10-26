@@ -4,108 +4,53 @@
 Community
 ********************************************************************************
 
-Please choose your forum wisely when starting a discussion or asking a question, help keep our various forums clean and tidy.
+Please choose your forum wisely when starting a discussion or asking a question, help keep our various forums clean and tidy. 
 
 Reddit
 ================================================================================
-The `Ethereum subreddit`_ is the most inclusive Ethereum forum, where most of the community discussion is happening and where core devs are also active. This is your forum of choice for generic discussion of news, media coverage, announcements, brainstorming. In general all things Ethereum relevant to the wider community.
 
-Strictly no price discussion.
+/r/NextyPlatform is Nexty official subreddit where our devs and marketing teams are ready for in-depth discussion.
 
-Also, this is not the ideal place to ask for hands-on help or post questions you expect there are clear immediate answers to (use :ref:`gitter-rooms` and :ref:`stack-exchange` for these, respectively).
-
-Read the `Ethereum subreddit rules`_ before posting.
-
-Further specialised subreddits:
-
-* `/r/EthTrader <https://www.reddit.com/r/EthTrader/>`_ - Ether trading, price and  market
-* `/r/EtherMining <https://www.reddit.com/r/EtherMining/>`_ - Ether mining discussion
-* `/r/Ethmarket <https://www.reddit.com/r/ethmarket/>`_ - Marketplace for individuals looking to exchange goods and services for Ether
-* `/r/Ethinvestor <https://www.reddit.com/r/Ethinvestor/>`_ - News and prospects for Ethereum investors. Following the long term trends in the Ethereum marketplace.
-* `/r/ethereumism/ <https://www.reddit.com/r/ethereumism/>`_ - A bit more ism, ostic, ical, ist and tinfoil hats, pyramids and crystal ball type of views - the ethereal side of Ethereum
-
-
-.. _Ethereum subreddit: https://www.reddit.com/r/ethereum/
-.. _Ethereum subreddit rules: http://www.reddit.com/r/ethereum/comments/3auc97/ethereum_subreddit_rules/
-
-.. _stack-exchange:
-
-Stack Exchange
+Telegram
 ================================================================================
 
-The `Ethereum Stack Exchange <http://ethereum.stackexchange.com/>`_ is part of the StackExchange network of Q&A communities. StackExchange is a free Q&A site where all the questions and answers are preserved for posterity.
+Nexty telegram welcome live discussions among members. The forums are strictly controlled by 5-7 admins, 24/7. This is the most suggested channel for asking questions about Nexty, because you will get the instant replies from the admins or from other senior users.  
 
-This is the best place to ask technical questions. Help your fellow etherians by answering questions and collect reputation points.
+Please note that you can raise any topic in this channel EXCEPT price discussion, personal insults and any kind of promotion. 
 
-.. _gitter-rooms:
+And telegram communities are also not a suggested place for partnership request. The messages stand high possibility to be missed and considered untrustworthy. 
+Please find the community rules on every pinned post in the group! 
 
-Gitter Rooms
+List of Nexty communities on Telegram: 
+	* Nexty general site: https://t.me/nexty.io (34,712 members)
+	* Vietnam telegram community: https://t.me/nextyvietnamofficial 
+	* Korean telegram community: https://t.me/nextykoreaofficial 
+	* Philippine telegram community: https://t.me/NextyPH 
+	* Brazil telegram community: https://t.me/nextybrazil 
+	* Nigeria telegram community: https://t.me/nextynigeriaofficial
+
+
+Facebook | Twitter | Medium
 ================================================================================
 
-Gitter is our forum of choice for daily chat. It is the virtual coworking space where devs hang out, so it is where you can get quick help and a bit of handholding if needed.
+These sites are normally not convenient for discussion or posing queries if you expect instant replies. However the sites stay updated regularly, and you can find all news and announcements of Nexty from the beginning on these sites. 
 
-Gitter uses Github accounts, offers Github integration (notification of pull requests etc), private channels, provides markdown formatting, and more.
+https://twitter.com/nextyio Twitter is suitable for brief updates. 
+https://www.facebook.com/nexty.io Facebook is suitable for picture and video update
+https://medium.com/nextyplatform Medium is for technical writing and in-depth analysis
 
-Most Gitter channels are organised around particular repositories, or generic topics like research or governance. Please choose the appropriate room and keep discussions on topic.
 
-See `the full list of gitter rooms for the Ethereum organisation`_. Below is the list of active public channels:
-
-* `go-ethereum`_ - about geth (and tools related to the go implementation)
-* `cpp-ethereum`_ - about eth (and tools related to the C++ implementation)
-* `web3.js`_ - about web3.js, Ethereum JavaScript API library
-* `Solidity`_ - The Solidity Contract-Oriented Programming Language
-* `serpent`_ - The Serpent language for contract development
-* `mist`_ - GUI dapp browser, official wallet app
-* `light-client`_ - about light client and the LES protocol
-* `research`_ - Ethereum research
-* `governance`_ - about dev governance
-* `whisper`_ - anonymous datagram publishing
-* `swarm`_ - decentralised content storage and distribution network
-* `EIPs`_ - discussion of _`Ethereum Improvement Proposals (EIPs)`
-* `ethereumjs-lib`_ - a JavaScript library of core Ethereum functions
-* `devp2p`_ -  ÐΞV's p2p network protocol & framework
-
-.. _the full list of gitter rooms for the Ethereum organisation: https://gitter.im/orgs/ethereum/rooms
-
-.. _go-ethereum: https://gitter.im/ethereum/go-ethereum
-.. _cpp-ethereum: https://gitter.im/ethereum/cpp-ethereum
-.. _web3.js: https://gitter.im/ethereum/web3.js
-.. _Solidity: https://gitter.im/ethereum/Solidity
-.. _serpent: https://gitter.im/ethereum/serpent
-.. _mist: https://gitter.im/ethereum/mist
-.. _light-client: https://gitter.im/ethereum/light-client
-.. _research: https://gitter.im/ethereum/research
-.. _governance: https://gitter.im/ethereum/governance
-.. _whisper: https://gitter.im/ethereum/whisper
-.. _swarm: https://gitter.im/ethereum/swarm
-.. _EIPs: https://gitter.im/ethereum/EIPs
-.. _ethereumjs-lib: https://gitter.im/ethereum/ethereumjs-lib
-.. _devp2p: https://gitter.im/ethereum/devp2p
-
-.. _Ethereum Improvement Proposals:
-
-Ethereum Improvement Proposals (EIPs)
+Bitcointalk
 ================================================================================
 
-The EIP scheme aims to be a framework and largely informal business process coordinating improvements to the protocols. People should first propose their idea as an issue or pull request to the EIPs repository. After basic filtering, the proposal will receive a number and is published in draft form. For an EIP to become Active it will require the mutual consent of the community. Those proposing changes should consider that ultimately consent may rest with the consensus of the Ethereum users.
-For discussion of EIPs, use the `gitter channel for EIP discussions`_.
+	* `ANN Nexty Platform <https://bitcointalk.org/index.php?topic=2498919.msg46641166#msg46641166>`_.
 
-* `EIP guidelines and sample EIP <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md>`_
-* `EIP template <https://github.com/ethereum/EIPs/blob/master/eip-X.md>`_
-* `EIP repository and README <https://github.com/ethereum/EIPs>`_
-* `gitter channel for EIP discussions <https://gitter.im/ethereum/EIPs>`_
+Nexty forum on Bitcointalk is mostly active during ICO and Bounty campaign (if any). But we all welcome new discussions here though admins may be less responsive than on telegram, normally within 3-9 hours.
 
-Meetups
+Youtube Channel
 ================================================================================
-* `Directory hosted on Meetup <http://www.meetup.com/topics/ethereum/>`_
-* `Meetup channel on Ethereum Forum <http://forum.ethereum.org/categories/meetups/>`_
 
-Obsolete
-===================
-Skype
--------
-Some community discussion fora still use skype rooms, but we would like to move away from that and encourage people to use `gitter <http://gitter.im>`_ or `slack <http://slack.com>`_.
+This is the right channel for anyone searching for Nexty technical explanation audios or to find the speeches of Nexty team in big events. 
 
-Ethereum Forum
---------------------
-Stephan Tual's legendary `Ethereum Forum <https://forum.ethereum.org/>`_ is no longer maintained and likely to be decommissioned soon. We encourage people to use one of the recommended alternatives listed above.
+Nexty youtube channel: https://www.youtube.com/channel/UCrwJTPycPiDm5-m__7tvfsw/
+

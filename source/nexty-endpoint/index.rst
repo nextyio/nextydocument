@@ -1,9 +1,10 @@
 ################################################################################
-Introduction
+Nexty Endpoint
 ################################################################################
 
-.. toctree::
-   :maxdepth: 2
+Network info.
 
-   what-is-nexty-platform.rst
-   community.rst
+.. toctree::
+  window-versions.rst
+  linux-version.rst
+  run-as-a-node.rst

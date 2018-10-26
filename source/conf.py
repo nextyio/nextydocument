@@ -264,7 +264,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'homesteadguide', u'Ethereum Homestead Documentation',
+    (master_doc, 'homesteadguide', u'Nexty Documentation',
      [author], 1)
 ]
 
@@ -278,8 +278,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'homesteadguide', u'Ethereum Homestead Documentation',
-   author, 'homesteadguide', 'One line description of project.',
+  (master_doc, 'homesteadguide', u'Nexty Documentation',
+   author, 'Nexty', 'One line description of project.',
    'Miscellaneous'),
 ]
 
