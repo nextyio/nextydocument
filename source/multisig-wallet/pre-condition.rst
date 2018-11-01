@@ -2,4 +2,9 @@
 Pre-condition
 ################################################################################
 
-A future of payment would be completely different from the traditional one. Future payment refers to when people can make any purchase without cash, anywhere, at any time and without any transaction fees. There are lot of growing cryptocurrencies that help to build such payment method, but none of them have completed so far
+Link multi-signature: http://207.148.119.222:8010/#/wallets
+
+1.	You need to have Nexty Wallet
+2.	Use Metamask to access http://13.228.68.50:8545
+
+Login Metamask using Nexty Wallet. The multi-signature page will automatically load your wallet information.

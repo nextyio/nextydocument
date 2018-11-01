@@ -2,6 +2,11 @@
 Restore multi-signature wallet
 ################################################################################
 
-A future of payment would be completely different from the traditional one. Future payment refers to when people can make any purchase without cash, anywhere, at any time and without any transaction fees. There are lot of growing cryptocurrencies that help to build such payment method, but none of them have completed so far.
+Tab Wallets:
 
-With foresee as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, to make the future possible, Nexty is having three deciding factors:
+- Owner 1 click ``Copy Wallet Address`` and send to Owner 2.
+- Owner 2 click ``Add``, select ``Restore Wallet``. 
+
+``Name``: Enter multi-signature wallet.
+``Address``: Enter multisig wallet address created by Owner 1
+Click ``OK`` to restore multisignature wallet.

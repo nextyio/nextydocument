@@ -2,6 +2,19 @@
 Add new multi-signature wallet
 ################################################################################
 
-A future of payment would be completely different from the traditional one. Future payment refers to when people can make any purchase without cash, anywhere, at any time and without any transaction fees. There are lot of growing cryptocurrencies that help to build such payment method, but none of them have completed so far.
+-	In tab ``Wallets``, click ``Add``, choose ``Create new wallet``, click ``Next`` to create a new multi-signature wallet.
+-	Enter information in Deploy new wallet:
 
-With foresee as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, to make the future possible, Nexty is having three deciding factors:
+``Name``: Name of multi-signature wallet.
+``Required confirmations``: The number of confirmations necessary to process a transaction.
+``Daily limit (NTY)``: The amount of NTY allowed to be withdrawn per day without confirmation.
+Your wallet is the Owner wallet by default. Enter Name and Address, then click Add to add Owner.
+
+-	Click ``Deploy``.
+-	Configure Gas is automatically calculated, click ``Send transaction`` and ``confirm on Metamask``.
+-	After the transaction is successfully confirmed, a new multi-signature wallet is created.
+-	Click on wallet name for details:
+
+``Owners``: The owner list of multi-signature wallet, can add, edit name and wallet address of owner. 	
+``Tokens``: The token list of multi-signature wallet, can add, edit and remove token.
+``Multisign transaction``: transaction history.

@@ -2,6 +2,16 @@
 Transfer token between wallets
 ################################################################################
 
-A future of payment would be completely different from the traditional one. Future payment refers to when people can make any purchase without cash, anywhere, at any time and without any transaction fees. There are lot of growing cryptocurrencies that help to build such payment method, but none of them have completed so far.
+In detailed information of multi-signature wallet, go to Multisig transactions, click ``Add``:
 
-With foresee as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, to make the future possible, Nexty is having three deciding factors:
+``Destination``: Destination wallet
+``Contract name``:
+``Amount (NTY)``: number of NTY
+ABI String
+
+Method
+
+Click Send multisign transaction to send transaction confirmation request. The transaction will be pending for other owners to confirm. 
+
+-	If the number of owners is equal to the number of required confirmations, transaction will be processed. 
+-	If the number of owners is less than the number of required confirmations, transaction will not be processed.
