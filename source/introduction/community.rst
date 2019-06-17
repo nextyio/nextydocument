@@ -22,10 +22,12 @@ And telegram communities are also not a suggested place for partnership request.
 Please find the community rules on every pinned post in the group! 
 
 List of Nexty communities on Telegram: 
-	* Nexty general site: https://t.me/nexty.io (34,712 members)
+
+	* Nexty general site: https://t.me/nexty.io
 	* Vietnam telegram community: https://t.me/nextyvietnamofficial 
 	* Korean telegram community: https://t.me/nextykoreaofficial 
-	* Philippine telegram community: https://t.me/NextyPH 
+	* India telegram community: https://t.me/NextyIndiaOfficialCommunity
+	* Philipine telegram community: https://t.me/NextyPH 
 	* Brazil telegram community: https://t.me/nextybrazil 
 	* Nigeria telegram community: https://t.me/nextynigeriaofficial
 

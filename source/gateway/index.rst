@@ -2,25 +2,20 @@
 Gateway
 ################################################################################
 
-.. contents::
-  :local:
-  :depth: 2
-
-
-1. What is Gateway?
-----------------------------------------------------------------------------------------------
 Gateway is a payment gateway using NTY, serving retail stores or shop owners, which integrates POS.
 Cryptocurrency other than NTY is acceptable, which conversion rate is referred to CoinMarketCap.
 Gateway read-only, unmodifiable.
 
-2. How does Gateway work?
-----------------------------------------------------------------------------------------------
+================================================================================
+How Gateway work?
+================================================================================
 
 Gateway’s condition: Shop owner must register for an account to use Gateway.
 
-	2.1.	Register
+		**Register**
 
 		❖	Register information: Wallet address (Indentify)
+
 			Each shop needs to register only a wallet address, which is used to identify that shop. By default, this is an exchange wallet between customers and shop. Exchange wallet can be modified.
 
 		❖	Verify
@@ -29,7 +24,8 @@ Gateway’s condition: Shop owner must register for an account to use Gateway.
 
 After successfully registered for an account, Gateway will give the user API key, IP address of Gateway and request address.
 
-	2.2.	Payment
+		**Payment**
+
 		❖	Payment using QR code (Callback payment method)
 
  
@@ -57,3 +53,7 @@ After successfully registered for an account, Gateway will give the user API key
 			(4) The customer finalizes payment with Nexty Mobile application.
 			(5) Then, POS continually sends request to Gateway to confirm whether the customer has successfully paid.
 			(6) Gateway constantly monitors the transaction status, the shop request Gateway to confirm the transaction. If the transaction is success, then the shop will receive a transaction completed notice (7) Shop does not need to re-confirm with Gateway (No Callback)
+
+.. contents::
+  	:local:
+  	:depth: 2
