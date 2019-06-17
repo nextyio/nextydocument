@@ -13,7 +13,7 @@ Nexty Documentation
    :alt: nexty-logo
    :align: center
 
-This documentation is the result of an ongoing collaborative effort by volunteers from the Nexty Community. We hope you will find it useful. We welcome new Contributors. Note that sections of this guide may be outdated.
+This documentation is created thanks to all the collective effort by Nexty developers and volunteers from the Nexty Community. We hope you will find it useful. Note that some sections of this guide may be outdated.
 
 
 Contents
@@ -23,11 +23,11 @@ Contents
    :maxdepth: 4
 
    introduction/index.rst
+   gateway/index.rst
+   multisig-wallet/index.rst
    nexty-endpoint/index.rst
    nexty-mobile-wallet/index.rst
-   smart-staking/index.rst
-   multisig-wallet/index.rst
+   nexty-stabilization/index.rst
    start-a-sealing-node/index.rst
-   gateway/index.rst
    frequently-asked-questions/frequently-asked-questions.rst
    glossary.rst

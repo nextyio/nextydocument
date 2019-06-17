@@ -25,7 +25,7 @@ However, Ethereum cannot solve problems such as: upgradability, transaction fees
 That’s why Nexty choose Ethereum source code. Other dApps which are running on Ethereum can swap to Nexty easily to enjoy Nexty’s features: instant transfer and zero transfer. Currently, the number of dApps running on Ethereum is enormous, so Nexty can make use of this.
 
 ================================================================================
-Why do we need a blockchain platform for micropayment?
+Why do we need a blockchain platform for payment?
 ================================================================================
 
 It is easy to see that although information technology is booming, the banking system is cumbersome, and it is difficult to put the change into practice quickly. The difficulty is faced especially with reference to international payment. In addition to that, the payment time is very long: from 1 to 3 days. Usage of payment tools such as credit card and online payment system face a big barrier in the form of transaction fees and the security of those systems. Cryptocurrency has been drawing a lot of attention recently, although it is ‘evaluated’ to be the solution of the above backlog but has not really solved these problems.
@@ -42,9 +42,10 @@ Contributors
 ================================================================================
 
 - `Thanh Dao <https://github.com/techcomthanh>`_
+- `Zergity <https://github.com/Zergity>`_
 - `Hai Nguyen <https://github.com/haint87>`_
 - `Hoang Nong <https://github.com/hoangnv1203>`_
-- `Ly Nguyen <https://github.com/lysylver>`_
+- `Louis <https://github.com/louisnguyen12>`_
 - `Thang Nguyen <https://github.com/bestboyvn87>`_
 - `Binh Nguyen <https://github.com/dubinnguyen>`_
 
