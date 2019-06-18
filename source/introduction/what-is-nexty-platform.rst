@@ -18,11 +18,11 @@ Nexty can achieve these features with Dual Cryptocurrency Confirmation System (D
 Ethereum origin
 ================================================================================
 
-Ethereum was created in 2016. Since then it has become one of the most successful blockchain platforms among the others. There are thousands of dApp were built and run on top of Ethereum until now. Additionally, Ethereum's core feature, smart contract, makes it the ideal blockchain to build dApps.
+Ethereum was created in 2015. Since then it has become one of the most successful blockchain platforms among the others. There are thousands of dApp were built and run on top of Ethereum until now. Additionally, Ethereum's core feature, smart contract, makes it the ideal blockchain to build dApps.
 
 However, transaction fees and transfer time of Ethereum don't meet the requirements for a payment of the future.
 
-Implemented on Ethereum source code, Nexty shall support other dApps which are running its predecessor, to swap to Nexty easily. These dApps will benefit greatly from Nexty core features: Instant Transfer and Zero Transfer Fee.
+Implemented on Ethereum source code, Nexty shall support other dApps which are running on its predecessor, to swap to Nexty easily. These dApps will benefit greatly from Nexty core features: Instant Transfer and Zero Transfer Fee.
 
 ================================================================================
 Why do we need a blockchain platform for payment?
@@ -49,8 +49,9 @@ Contributors
 - `Thang Nguyen <https://github.com/bestboyvn87>`_
 - `Binh Nguyen <https://github.com/dubinnguyen>`_
 
-PR videos with some pathos:
----------------------------------
+================================================================================
+Videos with pathos
+================================================================================
 
 * `Nexty instant transfer & zero transfer fee direct test <https://www.youtube.com/watch?v=ElnqxM3Tv3w&t=4s>`_
 * `Why is Nexty Platform the next revolution of Blockchain Platform? <https://www.youtube.com/watch?v=jEOvlGq8-LI&t=55s>`_
