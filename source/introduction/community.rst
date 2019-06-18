@@ -19,15 +19,15 @@ Nexty telegram welcome live discussions among members. The forums are strictly c
 Please note that you can raise any topic in this channel EXCEPT price discussion, personal insults and any kind of promotion. 
 
 And telegram communities are also not a suggested place for partnership request. The messages stand high possibility to be missed and considered untrustworthy. 
-Please find the community rules on every pinned post in the group! 
+Please find the community rules on every pinned post in the group!
 
-List of Nexty communities on Telegram: 
+List of Nexty communities on Telegram:
 
 	* Nexty general site: https://t.me/nexty.io
 	* Vietnam telegram community: https://t.me/nextyvietnamofficial 
 	* Korean telegram community: https://t.me/nextykoreaofficial 
 	* India telegram community: https://t.me/NextyIndiaOfficialCommunity
-	* Philipine telegram community: https://t.me/NextyPH 
+	* Philipines telegram community: https://t.me/NextyPH 
 	* Brazil telegram community: https://t.me/nextybrazil 
 	* Nigeria telegram community: https://t.me/nextynigeriaofficial
 

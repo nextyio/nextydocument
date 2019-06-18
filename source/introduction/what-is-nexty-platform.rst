@@ -6,31 +6,31 @@ What is Nexty Platform?
 
 A future of payment would be completely different from the traditional one. Future payment refers to when people can make any purchase without cash, anywhere, at any time and without any transaction fees. There are lot of growing cryptocurrencies that help to build such payment method, but none of them have completed so far.
 
-With foresee as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, to make the future possible, Nexty is having three deciding factors:
+Forseen as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, revolving around three deciding factors:
 
 * Instant Transfer
 * Zero Transfer Fees
 * Price Stabilization System
 
-Nexty can do it with Dual Cryptocurrency Confirmation System (DCCS) and Proof of Foundation (PoF) which can be found in `Whitepaper <https://nexty.io/nexty-whitepaper.pdf>`_.
+Nexty can achieve these features with Dual Cryptocurrency Confirmation System (DCCS) and Proof of Foundation (PoF) which can be found in `Whitepaper <https://nexty.io/nexty-whitepaper.pdf>`_.
 
 ================================================================================
-Why origin from Ethereum?
+Ethereum origin
 ================================================================================
 
-Ethereum was created in 2016. Since then it has become one of the most successful blockchain platform among the others. There are thousands dApp were built and run on top of Ethereum until now. It has been proven that Ethereum is a good blockchain for building dApps because of its function: smart contract. 
+Ethereum was created in 2016. Since then it has become one of the most successful blockchain platforms among the others. There are thousands of dApp were built and run on top of Ethereum until now. Additionally, Ethereum's core feature, smart contract, makes it the ideal blockchain to build dApps.
 
-However, Ethereum cannot solve problems such as: upgradability, transaction fees and transfer time.
+However, transaction fees and transfer time of Ethereum don't meet the requirements for a payment of the future.
 
-That’s why Nexty choose Ethereum source code. Other dApps which are running on Ethereum can swap to Nexty easily to enjoy Nexty’s features: instant transfer and zero transfer. Currently, the number of dApps running on Ethereum is enormous, so Nexty can make use of this.
+Implemented on Ethereum source code, Nexty shall support other dApps which are running its predecessor, to swap to Nexty easily. These dApps will benefit greatly from Nexty core features: Instant Transfer and Zero Transfer Fee.
 
 ================================================================================
 Why do we need a blockchain platform for payment?
 ================================================================================
 
-It is easy to see that although information technology is booming, the banking system is cumbersome, and it is difficult to put the change into practice quickly. The difficulty is faced especially with reference to international payment. In addition to that, the payment time is very long: from 1 to 3 days. Usage of payment tools such as credit card and online payment system face a big barrier in the form of transaction fees and the security of those systems. Cryptocurrency has been drawing a lot of attention recently, although it is ‘evaluated’ to be the solution of the above backlog but has not really solved these problems.
+It is easy to see that although information technology is booming, the banking system is cumbersome, and it is difficult to put the change into practice quickly. The difficulty is faced especially with reference to international payment. In addition to that, the processing time is tedious: from 1 to 3 days. Usage of payment tools such as credit card and online payment system face a big barrier in the form of transaction fees and the security of those systems. Cryptocurrency emerges as an alternative solution for these backlogs, although some problems still remain unsolved.
 
-The Ethereum platform itself is featureless or value-agnostic. Similar to programming languages, it is up to entrepreneurs and developers to decide what it should be used for. However, it is clear that certain application types benefit more than others from Ethereum's capabilities. Specifically, ethereum is **suited for applications that automate direct interaction between peers or facilitate coordinated group action across a network**. For instance, applications for coordinating peer-to-peer marketplaces, or the automation of complex financial contracts. Bitcoin allows for individuals to exchange cash without involving any middlemen like financial institutions, banks, or governments. Ethereum’s impact may be more far-reaching. In theory, financial interactions or exchanges of any complexity could be carried out automatically and reliably using code running on Ethereum. Beyond financial applications, any environments where trust, security, and permanence are important – for instance, asset-registries, voting, governance, and the internet of things – could be massively impacted by the Ethereum platform.
+The Ethereum platform itself is value-agnostic. Similar to a programming language, it is up to entrepreneurs and developers to decide what it should be used for. However, certain application types benefit more than others from Ethereum's capabilities. Specifically, Ethereum is **suited for applications that automate direct interaction between peers or facilitate coordinated group action across a network**. For instance, applications for coordinating peer-to-peer marketplaces, or the automation of complex financial contracts. Bitcoin allows for individuals to exchange cash without involving any middlemen like financial institutions, banks, or governments. Ethereum’s impact may be more far-reaching. In theory, financial interactions or exchanges of any complexity could be carried out automatically and reliably using code running on Ethereum. Beyond financial applications, any environments where trust, security, and permanence are important – for instance, asset-registries, voting, governance, and the internet of things – could be massively impacted by the Ethereum platform.
 
 Some Cryptocurrencies has reduced international settlement time to near-instantaneous threshold, but soon after, it became slow when the number of users increased drastically. In addition, payment fees are relatively high, even some types have higher costs using old payment methods such as online credit card, online payment system etc.
 
