@@ -1,6 +1,3 @@
-.. _what-is-ethereum:
-
-################################################################################
 What is Nexty Platform?
 ################################################################################
 
@@ -8,13 +5,14 @@ A future of payment would be completely different from the traditional one. Futu
 
 Forseen as a mean of future payment, Nexty shall support businesses of all sizes and scopes to overcome barriers of trading, revolving around three deciding factors:
 
-* Instant Transfer
-* Zero Transfer Fees
-* Price Stabilization System
+❖   Instant Transfer
+
+❖   Zero Transfer Fees
+
+❖   Price Stabilization System
 
 Nexty can achieve these features with Dual Cryptocurrency Confirmation System (DCCS) and Proof of Foundation (PoF) which can be found in `Whitepaper <https://nexty.io/nexty-whitepaper.pdf>`_.
 
-================================================================================
 Ethereum origin
 ================================================================================
 
@@ -24,7 +22,6 @@ However, transaction fees and transfer time of Ethereum don't meet the requireme
 
 Implemented on Ethereum source code, Nexty shall support other dApps which are running on its predecessor, to swap to Nexty easily. These dApps will benefit greatly from Nexty core features: Instant Transfer and Zero Transfer Fee.
 
-================================================================================
 Why do we need a blockchain platform for payment?
 ================================================================================
 
@@ -37,7 +34,6 @@ Some Cryptocurrencies has reduced international settlement time to near-instanta
 At the moment, we can’t buy a cup of coffee with Bitcoin, because the transaction fee of Bitcoin is considerably high, even higher than the cost of a cup of coffee. Moreover, the time Bitcoin needs to process a transaction could even be up to 3, 4 hours, thus makes bitcoin hard to use in daily life. Meanwhile, Nexty can do this easily. With zero transfer fee and transaction time below 2 seconds and could handle up to 1800 transactions/ second, so it could make the future of buying coffee with cryptocurrency achievable.
 
 
-================================================================================
 Contributors
 ================================================================================
 
@@ -49,8 +45,7 @@ Contributors
 - `Thang Nguyen <https://github.com/bestboyvn87>`_
 - `Binh Nguyen <https://github.com/dubinnguyen>`_
 
-================================================================================
-Videos with pathos
+PR Videos with pathos
 ================================================================================
 
 * `Nexty instant transfer & zero transfer fee direct test <https://www.youtube.com/watch?v=ElnqxM3Tv3w&t=4s>`_
