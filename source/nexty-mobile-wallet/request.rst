@@ -1,6 +1,5 @@
-################################################################################
 Request
-################################################################################
+********************************************************************************
 
 On the Dashboard, if you want to request payments from other NTY holders, simply tap on Request. Then a screen with your wallet address QR Code will appear and you can share this.
 

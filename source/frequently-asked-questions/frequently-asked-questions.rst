@@ -23,7 +23,7 @@ What are Instant Transfer and Zero Transfer Fees?
 These unique technologies are exclusive to Nexty, providing ecommerce startups namely online shops or services with fast, free and stable pricing experience for users. It’s a game changer to shop and pay online without transaction fees and long waiting time for transaction confirmation.
 
 What is Nexty's Unique Selling Proposition (USP) in contrast from competitors like Ethereum, Nano, Wave, Neo & etc?
-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 Nexty can provide instant, free transfer with a stable coin price at the same time. While the competitors may offer one or two of these features, none of them can provide all three of them at the same time yet. These three features are vital for ecommerce micro payment businesses for flourish, so their profit margins would not be disproportionately impacted by transaction fees.
 For instance if you buy a 10 cent item on Amazon and make payment by Bitcoin or
 Ethereum. As of 19 Jul 2018, the approximate exchange rate of 1 Bitcoin = $7,400 and 1 Ethereum $500; however, the transaction amount will be not be intuitive because of too many zeroes in front of the decimal place. Moreover, the high transaction cost of the 10 cent payment via Bitcoin or Ethereum would render uneconomical.
@@ -44,7 +44,6 @@ Nexty introduced the Dual Cryptocurrency Confirmation System(DCCS) to enhance th
 DCCS processes NTY transaction without a fee instantly. NTF will be used to verify NTY transactions and owners of NTF will receive rewards at the end of each month instead of receiving immediate transaction verification fees as commonly found in other Cryptocurrencies. Moreover, only NTF holders have privileges to mine NTY and NTF’s total supply is limited to only 10,000,000.
 
 With Nexty ecosystem model, NTY coin will increase its value, resulting in the increase of NTF’s token value as well.
-
 
 How to acquire the NTF coins?
 ----------------------------------------------------------------------------------------------

@@ -1,6 +1,5 @@
-################################################################################
 Add new multi-signature wallet
-################################################################################
+********************************************************************************
 
 -	In tab ``Wallets``, click ``Add``, choose ``Create new wallet``, click ``Next`` to create a new multi-signature wallet.
 -	Enter information in Deploy new wallet:

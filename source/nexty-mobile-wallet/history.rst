@@ -1,6 +1,5 @@
-################################################################################
 History
-################################################################################
+********************************************************************************
 
 Tap on Menu icon then tap History to see your list of past transactions. Outgoing transactions will appear with red arrow. Incoming transactions will appear with green arrow.
 

@@ -1,6 +1,3 @@
-.. _community:
-
-********************************************************************************
 Community
 ********************************************************************************
 
@@ -19,13 +16,15 @@ Nexty telegram welcome live discussions among members. The forums are strictly c
 Please note that you can raise any topic in this channel EXCEPT price discussion, personal insults and any kind of promotion. 
 
 And telegram communities are also not a suggested place for partnership request. The messages stand high possibility to be missed and considered untrustworthy. 
-Please find the community rules on every pinned post in the group! 
+Please find the community rules on every pinned post in the group!
 
-List of Nexty communities on Telegram: 
-	* Nexty general site: https://t.me/nexty.io (34,712 members)
+List of Nexty communities on Telegram:
+
+	* Nexty general site: https://t.me/nexty.io
 	* Vietnam telegram community: https://t.me/nextyvietnamofficial 
 	* Korean telegram community: https://t.me/nextykoreaofficial 
-	* Philippine telegram community: https://t.me/NextyPH 
+	* India telegram community: https://t.me/NextyIndiaOfficialCommunity
+	* Philipines telegram community: https://t.me/NextyPH 
 	* Brazil telegram community: https://t.me/nextybrazil 
 	* Nigeria telegram community: https://t.me/nextynigeriaofficial
 
@@ -35,15 +34,15 @@ Facebook | Twitter | Medium
 
 These sites are normally not convenient for discussion or posing queries if you expect instant replies. However the sites stay updated regularly, and you can find all news and announcements of Nexty from the beginning on these sites. 
 
-https://twitter.com/nextyio Twitter is suitable for brief updates. 
-https://www.facebook.com/nexty.io Facebook is suitable for picture and video update
-https://medium.com/nextyplatform Medium is for technical writing and in-depth analysis
+	https://twitter.com/nextyio Twitter is suitable for brief updates. 
+	https://www.facebook.com/nexty.io Facebook is suitable for picture and video update
+	https://medium.com/nextyplatform Medium is for technical writing and in-depth analysis
 
 
 Bitcointalk
 ================================================================================
 
-	* `ANN Nexty Platform <https://bitcointalk.org/index.php?topic=2498919.msg46641166#msg46641166>`_.
+	`ANN Nexty Platform <https://bitcointalk.org/index.php?topic=2498919.msg46641166#msg46641166>`_.
 
 Nexty forum on Bitcointalk is mostly active during ICO and Bounty campaign (if any). But we all welcome new discussions here though admins may be less responsive than on telegram, normally within 3-9 hours.
 
