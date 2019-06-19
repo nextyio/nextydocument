@@ -23,6 +23,7 @@ Contents
    :maxdepth: 4
 
    introduction/index.rst
+   ezpay/index.rst
    gateway/index.rst
    multisig-wallet/index.rst
    nexty-endpoint/index.rst
