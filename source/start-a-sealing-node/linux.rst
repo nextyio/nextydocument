@@ -37,11 +37,14 @@ View coinbase Address
 
 * Initiate miner node:
 
-``./gonex -- ethstats "NameOfNode:nty2018@stats.nexty.io" -- unlock "[eth.coinbase]" -- password “sealer_password.txt" -- etherbase "[eth.coinbase]" -- mine console``
+| ``./gonex -- ethstats "NameOfNode:nty2018@stats.nexty.io" -- unlock "[eth.coinbase]" -- pass``
+| ``word “sealer_password.txt" -- etherbase "[eth.coinbase]" -- mine console``
 
 Example:
 
-``./gonex --ethstats "WilliamDaFren:nty2018@stats.nexty.io" --unlock  "0xc74ebc22341092ef8caaa989f2f05e44f0ee25bc "  --password "sealer_password.txt" --etherbase "0xc74ebc22341092ef8caaa989f2f05e44f0ee25bc"  --mine console``
+| ``./gonex --ethstats "WilliamDaFren:nty2018@stats.nexty.io" --unlock  "0xc74ebc22341092ef8``
+| ``caaa989f2f05e44f0ee25bc "  --password "sealer_password.txt" --ether``
+| ``base "0xc74ebc22341092ef8caaa989f2f05e44f0ee25bc"  --mine console``
 
 After the node is successfully deployed, go to `Nextats <https://stats.nexty.io/>`_ to check if your node is deployed on the network.
 

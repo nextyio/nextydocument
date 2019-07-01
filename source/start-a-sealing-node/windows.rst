@@ -33,13 +33,14 @@ View coinbase address
 
 * Run node as a sealer
 
-..  compound::
-
-``gonex -- ethstats "NameOfNode:nty2018@stats.nexty.io" -- unlock  "[eth.coinbase]" -- password "Path_Password_File" -- etherbase "[eth.coinbase]" -- mine console``
+|  ``gonex -- ethstats "NameOfNode:nty2018@stats.nexty.io" -- unlock  "[eth.coinbase]" -- pass``
+|  ``word "Path_Password_File" -- etherbase "[eth.coinbase]" -- mine console``
 
 Example:
 
-``gonex --ethstats "WilliamDaFren:nty2018@stats.nexty.io" --unlock  "0x6e17d0d08b7ad8d1c453009840e34180cbb851c4" --password "C:\Users\Nguyen\Documents\sealer_password.txt" --etherbase "0x6e17d0d08b7ad8d1c453009840e34180cbb851c4" --mine console``
+|  ``gonex --ethstats "WilliamDaFren:nty2018@stats.nexty.io" --unlock  "0x6e17d0d08b7ad8d1c453``
+|  ``009840e34180cbb851c4" --password "C:\Users\Nguyen\Documents``
+|  ``\sealer_password.txt" --etherbase "0x6e17d0d08b7ad8d1c453009840e34180cbb851c4" --mine console``
 
 * Run node as a service
 
