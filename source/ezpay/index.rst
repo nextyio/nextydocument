@@ -1,7 +1,7 @@
-EzPay
+EzPay Gateway
 ################################################################################
 
-[Insert Foreword Here !]
+[COMING SOON]
 
 .. toctree::
    :maxdepth: 2
