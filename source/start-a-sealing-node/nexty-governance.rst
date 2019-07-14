@@ -7,13 +7,13 @@ Login
 After a node is set up, users should login Nexty Governance to become a sealer.
 Open your web browser, go to `Nexty Governance <https://governance.nexty.io/login>`_
 
-#. Using **Nexty Wallet** Private Key 
+1. Using **Nexty Wallet** Private Key 
 
 *This is not recommended for Login because of potential security breach*
 
 Enter your private key, then click **Login** to continue.
 
-#. Using **Metamask**
+2. Using **Metamask**
 
 * Go to `Metamask <https://metamask.io/>`_
 

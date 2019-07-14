@@ -1,7 +1,7 @@
 Linux
 ********************************************************************************
 
-#. Download binary release Gonex from github:
+1. Download binary release Gonex from github:
 
 ``wget https://github.com/nextyio/gonex/archive/v2.0.1.tar.gz -O gonex.gz``
 
@@ -13,7 +13,7 @@ Linux
 
 ``chmod +x ./gonex``
 
-#. Create new account (wallet):
+2. Create new account (wallet):
 
 * Enter the following commands in command prompt to create a new account (wallet):
 
@@ -21,7 +21,7 @@ Linux
 
 * Enter passphrase, and confirm passphrase, then the wallet display the ``Address``
 
-#. Start a simple node:
+3. Start a simple node:
 
 ``gonex --ethstats "NameOfNode:nty2018@stats.nexty.io" console``
 
@@ -29,7 +29,7 @@ View coinbase Address
 
 ``eth.coinbase``
 
-#. Start a miner node:
+4. Start a miner node:
 
 * Create a text file containing the password you typed above
 

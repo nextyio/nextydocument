@@ -1,15 +1,15 @@
 Windows
 ********************************************************************************
 
-#. Go to gonex download directory, extract (with zip program) then it'll create a gonex executable file in the same directory (gonex.exe)
+1. Go to gonex download directory, extract (with zip program) then it'll create a gonex executable file in the same directory (gonex.exe)
 
-#. Create new account (wallet)
+2. Create new account (wallet)
 
 * Open command prompt by typing cmd on Run window, then press Enter
 
 * The command line window display, go to directory that you extracted the Gonex file
 
-* Enter the following commands in command prompt to crete account (wallet)
+* Enter the following commands in command prompt to create account (wallet)
 
 ``gonex account new``
 
@@ -17,7 +17,7 @@ Windows
 
 ..  image:: /img/create-gonex-account.png
 
-#. Start a node:
+3. Start a node:
 
 ``./gonex --ethstats "NameOfNode:nty2018@stats.nexty.io" console``
 
@@ -25,7 +25,7 @@ View coinbase address
 
 ``eth.coinbase``
 
-#. Start a miner node:
+4. Start a miner node:
 
 * Create a text file containing the password you typed above
 
