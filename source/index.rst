@@ -28,6 +28,7 @@ Contents
    multisig-wallet/index.rst
    nexty-endpoint/index.rst
    nexty-mobile-wallet/index.rst
+   nexty-poolmaster/index.rst
    nexty-stabilization/index.rst
    start-a-sealing-node/index.rst
    frequently-asked-questions/frequently-asked-questions.rst
