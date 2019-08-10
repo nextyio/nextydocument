@@ -196,8 +196,8 @@ Glossary
    proof-of-stake
       An alternative method of mining blocks that require miners to demonstrate their possession of a certain amount of the currency of the network in question. This works on the principle that miners will be disincentivized to try to undermine a network in which they have a stake. PoS is less wasteful than PoW, but is still often used together with it to provide added security to the network.
 
-  proof-of-foundation
-      In addition to NTY coin-base, DCCS has the secondary token named NTF. NTF is used for authorizing an account to become the maintainer/sealer of the confirmation system described detail in section 2, as well as to calculate reward for block sealer. NTF token has total supply of 10, 000, 000 and will be distributed for the first 100, 000, 000, 000 NTY holders that joined in “Smart Staking” program described detail in the white paper of Nexty [2017]. In the other words, NTF will be rewarded to the pioneers having a clear vision and a strong believe in Nexty Platform in the future. That’s the reason why we call the new consensus protocol as “Proof of Foundation”
+  dual core proof-of-stake
+      In addition to NTY coin-base, DCCS has the secondary token named NTF. NTF is used for authorizing an account to become the maintainer/sealer of the confirmation system described detail in section 2, as well as to calculate reward for block sealer. NTF token has total supply of 10,000,000 and will be distributed for the first 100,000,000,000 NTY holders that joined in “Smart Staking” program described detail in the white paper of Nexty [2017]. In the other words, NTF will be rewarded to the pioneers having a clear vision and a strong believe in Nexty Platform in the future. That’s the reason why we call the new consensus protocol as “Dual Core Proof of Stake”
 
    consensus
       The agreement among all nodes in the network about the state of the Ethereum network.
