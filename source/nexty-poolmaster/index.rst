@@ -1,3 +1,4 @@
+################################################################################
 Nexty Poolmaster
 ################################################################################
 
@@ -6,5 +7,5 @@ Nexty users have the ability to mine NTY by depositing 50,000 NTF into Nexty Gov
 .. toctree::
    :maxdepth: 2
    
-   joinpool.rst
    createpool.rst
+   joinpool.rst
