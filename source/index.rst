@@ -6,7 +6,7 @@
 Nexty Documentation
 ###############################################################################
 
-..  image:: /img/logo.png
+..  image:: /img/logo-Nexty@20x.png
 ..   :height: 500px
 ..   :width: 394 px
    :scale: 50 %

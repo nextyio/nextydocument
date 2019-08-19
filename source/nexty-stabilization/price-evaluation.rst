@@ -4,7 +4,7 @@ Price Evaluation
 How much does an NewSD worth?
 ================================================================================
 
-NeUSD price can be fed using API of centralized exchanges, if they are trustworthy. Most of the time, they are not. Crypto exchanges are famous (or rather infamous) for their fake volume, market marking and shorting bots. The price of any asset can be easily manipulated with no cost at all. Setting out as a decentralized trustless stablecoin, depending on centralized exchanges is the risk that NeUSD would not take.
+NewSD price can be fed using API of centralized exchanges, if they are trustworthy. Most of the time, they are not. Crypto exchanges are famous (or rather infamous) for their fake volume, market marking and shorting bots. The price of any asset can be easily manipulated with no cost at all. Setting out as a decentralized trustless stablecoin, depending on centralized exchanges is the risk that NewSD would not take.
 
     "Market value or OMV (Open Market Valuation) is the price at which an asset would trade in a competitive auction setting."
 
