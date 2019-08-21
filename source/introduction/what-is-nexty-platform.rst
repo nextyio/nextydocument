@@ -18,7 +18,7 @@ Ethereum origin
 
 Ethereum was created in 2015. Since then, it has become one of the most successful blockchain platforms among the others. Ethereum’s core feature, smart contract, distinguishes it from Bitcoin. Developers can build dApps on Ethereum that can serve different purposes: wallet, finance, entertainment, marketplace, and so much more. There are thousands of them were built and running on Ethereum. However, new improvements are necessary if Ethereum becomes a payment platform.
 
-Transaction fees and transfer time of Ethereum are problematic for a payment of the future.
+**Transaction fees and transfer time of Ethereum are problematic for a payment of the future.**
 
 Implemented on Ethereum source code, Nexty shall support other dApps which are running on its predecessor, to swap to Nexty easily. These dApps will benefit greatly from Nexty core features: Instant Transfer and Zero Transfer Fee.
 
