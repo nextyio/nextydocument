@@ -9,7 +9,7 @@ Forseen as a mean of future payment, Nexty shall support businesses of all sizes
 
 ❖   Zero Transfer Fees
 
-❖   Price Stabilization System
+❖   Decentralized Trustless Stablecoin
 
 Nexty can achieve these features with Dual Cryptocurrency Confirmation System (DCCS) which can be found in `Whitepaper <https://nexty.io/nexty-whitepaper.pdf>`_.
 
