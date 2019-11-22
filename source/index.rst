@@ -22,14 +22,8 @@ Contents
 .. toctree::
    :maxdepth: 4
 
-   introduction/index.rst
-   ezpay/index.rst
-   gateway/index.rst
-   multisig-wallet/index.rst
-   nexty-endpoint/index.rst
-   nexty-mobile-wallet/index.rst
-   nexty-poolmaster/index.rst
-   nexty-stabilization/index.rst
-   start-a-sealing-node/index.rst
+   home/index.rst
+   how-to/index.rst
+   integrations/index.rst
    frequently-asked-questions/frequently-asked-questions.rst
    glossary.rst
