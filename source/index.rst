@@ -1,19 +1,16 @@
-.. Nexty documentation master file, created by
+.. EzDeFi documentation master file, created by
    sphinx-quickstart on Tue Oct  22 17:30:05 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Nexty Documentation
-###############################################################################
+.. image:: /img/EzDeFi-Gateways@4x.png
+   :height: 300px
+   :width: 800px
+   :alt: ezdefi-logo
+   :align: left
 
-..  image:: /img/logo-Nexty@20x.png
-..   :height: 500px
-..   :width: 394 px
-   :scale: 50 %
-   :alt: nexty-logo
-   :align: center
 
-This documentation is created thanks to all the collective effort by Nexty developers and volunteers from the Nexty Community. We hope you will find it useful. Note that some sections of this guide may be outdated.
+This documentation is created thanks to all the collective effort by ezDeFi developers. We hope you will find it useful. Note that some sections of this guide may be outdated.
 
 
 Contents
@@ -25,5 +22,5 @@ Contents
    home/index.rst
    how-to/index.rst
    integrations/index.rst
-   frequently-asked-questions/frequently-asked-questions.rst
+   frequently-asked-questions/index.rst
    glossary.rst
