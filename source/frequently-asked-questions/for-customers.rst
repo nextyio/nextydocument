@@ -14,31 +14,31 @@ EzDeFi is a platform that helps merchants anywhere in the world accept cryptocur
 
 * After a valid payment is detected, we will notify the merchant so they can take any necessary actions on their end.
 
-All payments facilitated by ezDeFi are fully decentralized and peer-to-peer. This means that the cryptocurrency goes directly from your wallet to a wallet that is only accessible by the merchant. At no point in this flow does anyone except the merchant, including Coinbase, have access to these funds.
+All payments facilitated by ezDeFi are fully decentralized and peer-to-peer. This means that the cryptocurrency goes directly from your wallet to a wallet that is only accessible by the merchant. At no point in this flow does anyone except the merchant, including ezDeFi, have access to these funds.
 
 How do I go about getting a refund? Can ezDeFi help me with this?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you would like a refund, please contact the merchant directly.
 
-All transactions made with cryptocurrency are direct peer-to-peer payments from the customer to the merchant. This means that once a payment is sent, there is no way for Coinbase to reverse the transaction or reclaim funds on your behalf. As a result we are unable to resolve any payment disputes as the transactions are secured by the blockchain and are irreversible.
+All transactions made with cryptocurrency are direct peer-to-peer payments from the customer to the merchant. This means that once a payment is sent, there is no way for ezDeFi to reverse the transaction or reclaim funds on your behalf. As a result we are unable to resolve any payment disputes as the transactions are secured by the blockchain and are irreversible.
 
 I haven’t received the item I purchased. What can I do?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Please reach out to the merchant directly regarding any issues with your order or an update on your order status.
 
-All transactions made with cryptocurrency are direct peer-to-peer payments from the customer to the merchant. This means that once a payment is sent, there is no way for Coinbase to reverse the transaction or reclaim funds on your behalf. As a result we are unable to resolve any payment disputes as the transactions are secured by the blockchain and are irreversible.
+All transactions made with cryptocurrency are direct peer-to-peer payments from the customer to the merchant. This means that once a payment is sent, there is no way for ezDeFi to reverse the transaction or reclaim funds on your behalf. As a result we are unable to resolve any payment disputes as the transactions are secured by the blockchain and are irreversible.
 
-If you believe that this merchant may be running a scam, please send an email to support@ezdefi.io  with all relevant details and a member of our security and investigations team will take a look into the account.
+If you believe that this merchant may be running a scam, please send an email to support@ezdefi.com  with all relevant details and a member of our security and investigations team will take a look into the account.
 
 How can I track my order or get a receipt?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-To help with tracking payments and status updates, Coinbase generates an 8 character alphanumeric order code for each charge. There are two locations where this code can be found:
+To help with tracking payments and status updates, ezDeFi generates an 8 character alphanumeric order code for each charge. There are two locations where this code can be found:
 
-* In the commerce.coinbase.com URL you visit while making a payment
+* In the www.ezDeFi.com URL you visit while making a payment
 
 * On the receipt after a payment has been successfully processed
 
-To view your receipt, please visit commerce.coinbase.com/receipts/<CODE>, where “<CODE>” is replaced with your 8 character order code.
+To view your receipt, please visit www.ezDeFi.com/receipts/<CODE>, where “<CODE>” is replaced with your 8 character order code.
 
 Payment Unsuccessful
 ----------------------------------------------------------------------------------------------
@@ -51,4 +51,4 @@ Please reach out directly to the merchant to resolve this issue – the merchant
 
 Your question is still not answered?
 ----------------------------------------------------------------------------------------------
-Please contact us at support@ezdefi.io for further assistance.
+Please contact us at support@ezdefi.com for further assistance.
