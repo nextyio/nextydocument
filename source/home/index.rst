@@ -4,7 +4,7 @@ Cryptocurrencies have dramatically lowered the barrier to accepting payments on 
 
 Introduction
 ================================================================================
-EzDeFi allows you to be your own bank with all the benefits of a hosted service. It's no longer necessary to build and maintain infrastructure to monitor the blockchain; stay focused on running your business and leave the rest to us. Using public keys created on signup for each cryptocurrency, we're able to generate payment addresses on your behalf and continuously monitor the blockchain to detect when payments are made.
+EzDeFi allows you to be your own bank with all the benefits of a hosted service. It's no longer necessary to build and maintain infrastructure to monitor the blockchain; stay focused on running your business and leave the rest to us. Using public keys created on signup for each :term:`cryptocurrency`, we're able to generate payment addresses on your behalf and continuously monitor the blockchain to detect when payments are made.
 
 Customers can now pay you directly from their computer or mobile device using the blockchain as the settlement network. With cryptocurrencies you no longer need to collect and store payment credentials or sensitive customer information.
 

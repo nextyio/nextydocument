@@ -127,7 +127,7 @@ html_theme = 'karma_sphinx_theme'
 html_theme_options = {
     'navigation_depth': 2,
     'includehidden': True,
-    'titles_only': False
+    'titles_only': True
 }
 
 # Add any paths that contain custom themes here, relative to this directory.

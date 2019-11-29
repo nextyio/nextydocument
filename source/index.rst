@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: /img/EzDeFi-Gateways.svg
+.. image:: /img/EzDeFi-Docs.svg
    :height: 300px
    :width: 400px
    :scale: 50%
