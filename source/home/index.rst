@@ -1,12 +1,13 @@
 Home
 ################################################################################
+
 Cryptocurrencies have dramatically lowered the barrier to accepting payments on the web. ezDeFi makes it easier than ever to accept cryptocurrency in the way cryptocurrencies were designed to be accepted: in a truly peer-to-peer fashion.
 
 Introduction
 ================================================================================
-EzDeFi allows you to be your own bank with all the benefits of a hosted service. It's no longer necessary to build and maintain infrastructure to monitor the blockchain; stay focused on running your business and leave the rest to us. Using public keys created on signup for each :term:`cryptocurrency`, we're able to generate payment addresses on your behalf and continuously monitor the blockchain to detect when payments are made.
+EzDeFi allows you to be your own bank with all the benefits of a hosted service. We'll help you monitor the blockchain, while you stay focused on running your business.
 
-Customers can now pay you directly from their computer or mobile device using the blockchain as the settlement network. With cryptocurrencies you no longer need to collect and store payment credentials or sensitive customer information.
+Customers can now pay you directly from their computer or mobile device using the blockchain as the settlement network. With cryptocurrencies, you no longer need to collect and store payment credentials or sensitive customer information.
 
 Cryptocurrency payment
 ================================================================================
@@ -25,6 +26,13 @@ In other cases a customer may overpay, underpay, or pay more than once. When thi
 Getting Started
 ================================================================================
 
+We reccommend you use Wordpress for plugins installation.
+
+For more instruction regarding API integration, please refer to How-to.
 
 Not a developer?
 ================================================================================
+
+You can find relevant information on our `News <https://ezdefi.com/news/>`_ and `FAQ page <https://ezdefi.com/faq/>`_ 
+
+If you can't find the information you are looking for, please contact us at cs@ezdefi.com

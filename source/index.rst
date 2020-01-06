@@ -10,15 +10,14 @@
    :alt: ezdefi-logo
    :align: center
 
-
-Contents
-===============================================================================
+.. include:: home/index.rst
 
 .. toctree::
-   :maxdepth: 4
+    :hidden:
 
-   home/index.rst
-   how-to/index.rst
-   integrations/index.rst
-   frequently-asked-questions/index.rst
-   glossary.rst
+    home/index.rst
+    how-to/index.rst
+    integrations/index.rst
+    frequently-asked-questions/index.rst
+
+
