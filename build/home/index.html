@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Home</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/./style/default.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="How to?" href="../how-to/index.html" />
+    <link rel="prev" title="Home" href="../index.html" /> 
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="site-nav-toggle hidden-lg-up"><i class="icon-menu"></i></a>
+            <a class="site-title" href="../index.html">
+                EzDeFi Docs
+            </a>
+        </div>
+    </header>
+
+
+<div class="breadcrumbs-outer hidden-xs-down">
+    <div class="container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a></li>
+        
+      <li>Home</li>
+    
+    
+      <!-- <li class="breadcrumbs-aside">
+        
+            
+            <a href="../_sources/home/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li> -->
+    
+  </ul>
+</div>
+    </div>
+</div>
+    <div class="main-outer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 site-nav">
+                    
+<div role="search">
+    <form class="search" action="../search.html" method="get">
+        <div class="icon-input">
+            <input type="text" name="q" placeholder="Search" />
+            <span class="icon-search"></span>
+        </div>
+        <input type="submit" value="Go" class="d-hidden" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+                    <div class="site-nav-tree">
+                        
+                            
+                            
+                                <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to/index.html">How to?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../integrations/index.html">Integrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/index.html">Frequently Asked Questions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../frequently-asked-questions/for-customers.html">For Customers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../frequently-asked-questions/for-merchants.html">For Merchants</a></li>
+</ul>
+</li>
+</ul>
+
+                            
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="document">
+                        
+                            
+  <div class="section" id="home">
+<h1>Home<a class="headerlink" href="#home" title="Permalink to this headline">¶</a></h1>
+<p>Cryptocurrencies have dramatically lowered the barrier to accepting payments on the web. ezDeFi makes it easier than ever to accept cryptocurrency in the way cryptocurrencies were designed to be accepted: in a truly peer-to-peer fashion.</p>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>EzDeFi allows you to be your own bank with all the benefits of a hosted service. We’ll help you monitor the blockchain, while you stay focused on running your business.</p>
+<p>Customers can now pay you directly from their computer or mobile device using the blockchain as the settlement network. With cryptocurrencies, you no longer need to collect and store payment credentials or sensitive customer information.</p>
+</div>
+<div class="section" id="cryptocurrency-payment">
+<h2>Cryptocurrency payment<a class="headerlink" href="#cryptocurrency-payment" title="Permalink to this headline">¶</a></h2>
+<p>Payments today rely on customers populating forms with credit card information. This information is then used to pull payments directly from the customer. Cryptocurrencies are different. Instead, a wallet is used to push payments directly to the merchant. A customer specifies the amount of cryptocurrency along with an address before sending funds. In this way, cryptocurrency payments are push payments.</p>
+<p>When a customer requests to pay with cryptocurrency, we create a charge representing the expected payment. A charge can be thought of as a request for payment in one or more cryptocurrencies. Since cryptocurrency payments are made over a separate network, a unique payment address per cryptocurrency is generated on charge creation so we can associate customers to their payments. When a customer makes a cryptocurrency payment, they generate a transaction that is then broadcast to the cryptocurrency network for validation/confirmation.</p>
+<p>Once a charge is created we start monitoring these unique addresses on the respective networks to detect any inbound payments. Each charge has an associated payment status.</p>
+<p>When we detect the customer’s transaction on the blockchain, the payment status changes to Pending. This means the payment has been detected but it has not yet been validated by the network. When the transaction is fully validated and confirmed by the blockchain network, the payment status changes to Completed. These unique payment addresses are monitored for up to 60 minutes. If no payment is detected after 60 minutes then the payment status changes to Expired.</p>
+<p>In some cases, a customer may make a payment after the 60 minutes has passed. In this case the payment status changes to Unresolved with a reason of Delayed.</p>
+<p>In other cases a customer may overpay, underpay, or pay more than once. When this happens the payment status changes to Unresolved with reasons Overpaid, Underpaid, or Multiple respectively. The Unresolved payment status can be manually updated to Resolved by the merchant to indicate that the payment issue has been resolved.</p>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>We reccommend you use Wordpress for plugins installation.</p>
+<p>For more instruction regarding API integration, please refer to How-to.</p>
+</div>
+<div class="section" id="not-a-developer">
+<h2>Not a developer?<a class="headerlink" href="#not-a-developer" title="Permalink to this headline">¶</a></h2>
+<p>You can find relevant information on our <a class="reference external" href="https://ezdefi.com/news/">News</a> and <a class="reference external" href="https://ezdefi.com/faq/">FAQ page</a></p>
+<p>If you can’t find the information you are looking for, please contact us at <a class="reference external" href="mailto:cs&#37;&#52;&#48;ezdefi&#46;com">cs<span>&#64;</span>ezdefi<span>&#46;</span>com</a></p>
+</div>
+</div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1.1',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+    <div class="footer" role="contentinfo">
+        <div class="container">
+            &#169; Copyright 2019, EzDeFi.
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+        </div>
+    </div>  
+
+</body>
+</html>

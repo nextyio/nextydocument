@@ -1,0 +1,9 @@
+Verifiable Delay Function
+################################################################################
+
+After the Protocol 3.0 Update, VDF is implemented on DCCS Consensus. 
+
+.. toctree::
+   :maxdepth: 2
+
+   
