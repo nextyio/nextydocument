@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>How Gateway works?</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Multisig Wallet" href="../multisig-wallet/index.html" />
+    <link rel="prev" title="Gateway" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nexty Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ezpay/index.html">EzPay Gateway</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Gateway</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">How Gateway works?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../multisig-wallet/index.html">Multisig Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-endpoint/index.html">Nexty Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-mobile-wallet/index.html">Nexty Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-poolmaster/index.html">Nexty Poolmaster</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-stabilization/index.html">Nexty Stabilization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../start-a-sealing-node/index.html">Start a Sealing Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexty Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Gateway</a> &raquo;</li>
+        
+      <li>How Gateway works?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/gateway/how-gateway-works.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="how-gateway-works">
+<h1>How Gateway works?<a class="headerlink" href="#how-gateway-works" title="Permalink to this headline">¶</a></h1>
+<p>Gateway’s condition: Shop owner must register for an account to use Gateway.</p>
+<blockquote>
+<div><p><strong>Register</strong></p>
+<blockquote>
+<div><p>❖       Register information: Wallet address</p>
+<blockquote>
+<div><p>Each shop needs to register only a wallet address, which is used to identify that shop. By default, this is an exchange wallet between customers and shop. Exchange wallet can be modified.</p>
+</div></blockquote>
+<p>❖       Verification</p>
+<blockquote>
+<div><p>To assure the registered address is valid and accurate, Gateway will verify that address by generating a QR code for the shop. Then the shop owner can use Nexty Mobile Wallet app to login to identified wallet address (registered above) and scan the QR code to transfer a small amount of NTY to Gateway wallet for confirmation. If the confirmation is completed, Gateway will confirm that the account is successfully registered.</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>After successfully registered for an account, Gateway will give the user API key, IP address of Gateway and request address.</p>
+<blockquote>
+<div><p><strong>Payment</strong></p>
+<blockquote>
+<div><p>❖       Payment using QR code (Callback payment method)</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>When customers buy a product and checkout, a request is sent to Gateway including:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Shop</span> <span class="pre">ID</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Order</span> <span class="pre">ID</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Amount</span></code> The amount customer needs to pay</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Wallet</span> <span class="pre">address</span></code> (shop’s exchange wallet)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Currency</span></code> If Currency is not NTY, Amount is automatically converted to NTY through CoinMarketCap API on Gateway.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">API</span> <span class="pre">key</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Merchant</span> <span class="pre">ID</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CallbackURL</span></code> To send successful payment notice to shop</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ReturnURL</span></code> After the customer finalizes payment, forward the customer to this URL.</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>After receiving sufficient information, Gateway generates a QR code displaying on Checkout page. The customer will be forwarded to this page.</p></li>
+<li><p>The customer pays, using Nexty mobile application to scan QR code.</p></li>
+<li><p>After the customer successfully paid, Gateway sends to the shop a Successful Payment notice through CallbackURL and waits for the shop to re-confirm.</p></li>
+<li><p>The shop re-confirms with Gateway that it has received the notice. Then, the customer is transferred to Successful Payment page through returnURL.</p></li>
+</ol>
+</div></blockquote>
+<p>❖       Payment with POS (Payment method without Callback, POS sends request with API key to retrieve payment status)</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>The customer request to pay through POS</p></li>
+<li><p>POS sends request containing API key to Gateway asking for QR code URL</p></li>
+<li><p>If the API key is valid, Gateway returns qrURL to POS (Google charts API)</p></li>
+<li><p>The customer finalizes payment with Nexty Mobile application</p></li>
+<li><p>Then, POS continually sends request to Gateway to confirm whether the customer has successfully paid</p></li>
+<li><p>Gateway constantly monitors the transaction status, the shop request Gateway to confirm the transaction. If the transaction is success, then the shop will receive a transaction completed notice (7) Shop does not need to re-confirm with Gateway (No Callback)</p></li>
+</ol>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../multisig-wallet/index.html" class="btn btn-neutral float-right" title="Multisig Wallet" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Gateway" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Nexty platform
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

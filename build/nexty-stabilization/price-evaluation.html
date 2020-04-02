@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Price Evaluation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Start a Sealing Node" href="../start-a-sealing-node/index.html" />
+    <link rel="prev" title="Absorption Mechanism" href="absorption-mechanism.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nexty Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ezpay/index.html">EzPay Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gateway/index.html">Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multisig-wallet/index.html">Multisig Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-endpoint/index.html">Nexty Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-mobile-wallet/index.html">Nexty Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-poolmaster/index.html">Nexty Poolmaster</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Nexty Stabilization</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="absorption-mechanism.html">Absorption Mechanism</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Price Evaluation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-much-does-an-newsd-worth">How much does an NewSD worth?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../start-a-sealing-node/index.html">Start a Sealing Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexty Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Nexty Stabilization</a> &raquo;</li>
+        
+      <li>Price Evaluation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/nexty-stabilization/price-evaluation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="price-evaluation">
+<h1>Price Evaluation<a class="headerlink" href="#price-evaluation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="how-much-does-an-newsd-worth">
+<h2>How much does an NewSD worth?<a class="headerlink" href="#how-much-does-an-newsd-worth" title="Permalink to this headline">¶</a></h2>
+<p>NeUSD price can be fed using API of centralized exchanges, if they are trustworthy. Most of the time, they are not. Crypto exchanges are famous (or rather infamous) for their fake volume, market marking and shorting bots. The price of any asset can be easily manipulated with no cost at all. Setting out as a decentralized trustless stablecoin, depending on centralized exchanges is the risk that NeUSD would not take.</p>
+<blockquote>
+<div><p>“Market value or OMV (Open Market Valuation) is the price at which an asset would trade in a competitive auction setting.”</p>
+</div></blockquote>
+<p>To find a market value of an asset, people has to actually get their asses to the market and try to buy and sell it themselves. A price oracle can gauge the market price only by perform the trading, using their own asset and currency. The principle is, if you can sell an asset in an open market with price X, then its market price is at least X. And if you can buy an asset with price Y, then its market price is at most Y. This assumption holds true for a significant volume of the trading order, in a widely open market, and in a timely fashion.</p>
+<p>With high liquidity and trading volume, centralized exchanges could be a good marketplace to gauge the price, but not the only options. When even no exchange is available, or closed, oracle can always go to black markets to gauge the price, and feed it the consensus.</p>
+<p>The price evaluation process is called <strong>Price Gauging</strong>, because real order with real asset has to be traded to estimate the price. For a volatile asset, this process brings great risks to the Oracles, but for a stablecoin, it’s economically much safer.</p>
+<p>If the target exchange has an exchange fee of 0.2%, then the Oracle will not lose money by selling no less than $1.002, or buying no more than $0.998.</p>
+<p><code class="docutils literal notranslate"><span class="pre">ExchangeFeeRate</span> <span class="pre">=</span> <span class="pre">0.002</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">MinSellingPrice</span> <span class="pre">=</span> <span class="pre">1.0</span> <span class="pre">+</span> <span class="pre">ExchangeFeeRate</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">MaxBuyingPrice</span> <span class="pre">=</span> <span class="pre">1.0</span> <span class="pre">-</span> <span class="pre">ExchangeFeeRate</span></code></p>
+<p>To gauge the selling price, Oracle will following these steps:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Fetch the LastSellingPrice from exchange API (for reference, not to trust)</p></li>
+<li><p>If the LastSellingPrice &lt; 1.0, Oracle will book a limit <strong>buying order</strong> of MaxBuyingPrice. The filled prices will (be) the correct selling Price and stop the process.</p></li>
+<li><p>Otherwise, use a binary search process to find the most correct market price from [MinSellingPrice, (LastSellingPrice - 1 PIP) * 2 - 1.0] (where PIP is the smallest step of exchange price)</p></li>
+<li><p>The correct price is higher if the order is filled within a configurable timeout (10 mins), and it will be lower if the order is not filled within that time.</p></li>
+<li><p>If no order can be filled, then the stablecoin does not have enough liquidity. No price will be fed to the consensus.</p></li>
+</ol>
+</div></blockquote>
+<p>The same process can be applied to gauge the buying price.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../start-a-sealing-node/index.html" class="btn btn-neutral float-right" title="Start a Sealing Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="absorption-mechanism.html" class="btn btn-neutral float-left" title="Absorption Mechanism" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Nexty platform
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

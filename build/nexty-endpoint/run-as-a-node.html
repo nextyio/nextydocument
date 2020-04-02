@@ -1,0 +1,725 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Run as a node</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Nexty Wallet" href="../nexty-mobile-wallet/index.html" />
+    <link rel="prev" title="Linux version" href="linux-version.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nexty Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ezpay/index.html">EzPay Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gateway/index.html">Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multisig-wallet/index.html">Multisig Wallet</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Nexty Endpoint</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="window-versions.html">Window Version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linux-version.html">Linux version</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Run as a node</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#run-gonex">Run gonex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#connection-peers">Connection peers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#access-stats-stats-nexty-io">Access Stats (stats.nexty.io)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#access-explorer-explorer-nexty-io">Access Explorer (explorer.nexty.io)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#api">API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#web3">Web3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-mobile-wallet/index.html">Nexty Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-poolmaster/index.html">Nexty Poolmaster</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-stabilization/index.html">Nexty Stabilization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../start-a-sealing-node/index.html">Start a Sealing Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexty Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Nexty Endpoint</a> &raquo;</li>
+        
+      <li>Run as a node</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/nexty-endpoint/run-as-a-node.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="run-as-a-node">
+<h1>Run as a node<a class="headerlink" href="#run-as-a-node" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="run-gonex">
+<h2>Run gonex<a class="headerlink" href="#run-gonex" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/runs-gonex.png" src="../_images/runs-gonex.png" />
+<p>All basic configuration parameters were set when launching the file gonex.exe, but you  need running as following below configuration for the stable system:</p>
+<p>Window:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> gonex --datadir <span class="s2">&quot;C:\gonex\data&quot;</span> --rpc --rpcapi <span class="s2">&quot;web3,net,eth&quot;</span> --rpccorsdomain <span class="s2">&quot;*,https://vnbig.com&quot;</span> --ethstats <span class="s2">&quot;vnbig:nty2018@stats.nexty.io&quot;</span> console
+</pre></div>
+</div>
+<p>Linux:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> sudo ./gonex --datadir <span class="s2">&quot;/home/{user_name}/gonex_data&quot;</span> --rpc --rpcapi <span class="s2">&quot;web3,net,eth&quot;</span> --rpccorsdomain <span class="s2">&quot;*, https://vnbig.com&quot;</span> --ethstats <span class="s2">&quot; vnbig:nty2018@stats.nexty.io&quot;</span> console
+</pre></div>
+</div>
+</div>
+<div class="section" id="connection-peers">
+<h2>Connection peers<a class="headerlink" href="#connection-peers" title="Permalink to this headline">¶</a></h2>
+<p>By default, gonex will automatically connect to other peers in the nexty network (connection time is 2-10 minutes or faster), but in case it is blocked by firewall or other policies, you can manual connect to other peers by command are as follows:</p>
+<ol class="loweralpha simple">
+<li><p>Add node manual by command:</p></li>
+</ol>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://debd38f626a17ba5a40b39dd67cfc56467edb86ec4c5b492a63e4defa6487fabf588709d455942cd4914d44cfc1a7fb9ff2dccd1166667620fd68d16453fb846@139.99.96.126:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://45d628d87f60675c900c8f00dd6761c36d830285c29a8993b1c7ec79cfa882a8ce5d60bd7aaa477f06e6f261170007110c1da1e3693cc8b4fd5422f1b5a23af1@13.228.68.50:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://232ff8df082c7ea2f25915bd78515d987d53b804989763575ce3f0693688482a3eba210ccdf7dec66d78a6978dd214a07048dac7878b84b901b8ad5d334afc4d@13.229.161.231:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://48de197e14f60aa43dd40450533e3006b13f36aae95b898ab8078becee99767904ece6db86b85e94bd22495988efae43f2d663f6110fc51e4d0f093621094bcd@13.251.24.88:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://5eec3d1256b3989e3bba0bb35690148fc1378d3d3fe27838ca6de04d9a880304af312c612bd25c89dd0cc8cfcdf5f8186c0f5a69f5cfe3a068330166661b431a@35.186.147.119:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://eb74bcb909db025d60dd06151e608867bc5ffda454a4e13568867d2635ac481a49aea7f1b1a0845b71b2363d385394291e983489e6c52fcba5ee603cb0178555@35.197.153.143:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://374fd3c0eec3e279122ad87bbc4bb729c055a42e7ce7b3988b55101a9b419aef5ba55d0727ec336fac3e64cd3ae5cb49d44404c463981db6b5bde6de12265aad@35.198.202.233:30303&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">admin</span><span class="p">.</span><span class="nx">addPeer</span><span class="p">(</span><span class="s2">&quot;enode://399a27c102949a776e0e0ec12f559fca18e2b4044af3f8180a0f1fb5bcaa293b894d020f5742175422341a0f38c53e12adec286fe654db10ce11ade97cd06943@35.197.133.117:30303&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="2">
+<li><p>Add node by config file:</p></li>
+</ol>
+<p>You can configure permanent static nodes by putting something like the following into file <code class="docutils literal notranslate"><span class="pre">&lt;datadir&gt;/static-nodes.json</span></code> (eg: Window: <code class="docutils literal notranslate"><span class="pre">C:\Gonex\data\static-nodes.json</span></code>; Linux: <code class="docutils literal notranslate"><span class="pre">/home/{user}/gonex_data/</span></code>), run gonex again.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>&gt; [“enode://debd38f626a17ba5a40b39dd67cfc56467edb86ec4c5b492a63e4defa6487fabf588709d455942cd4914d44cfc1a7fb9ff2dccd1166667620fd68d16453fb846@139.99.96.126:30303&quot;,
+     &quot;enode://45d628d87f60675c900c8f00dd6761c36d830285c29a8993b1c7ec79cfa882a8ce5d60bd7aaa477f06e6f261170007110c1da1e3693cc8b4fd5422f1b5a23af1@13.228.68.50:30303&quot;,
+     &quot;enode://48de197e14f60aa43dd40450533e3006b13f36aae95b898ab8078becee99767904ece6db86b85e94bd22495988efae43f2d663f6110fc51e4d0f093621094bcd@13.251.24.88:30303&quot;,
+     &quot;enode://5eec3d1256b3989e3bba0bb35690148fc1378d3d3fe27838ca6de04d9a880304af312c612bd25c89dd0cc8cfcdf5f8186c0f5a69f5cfe3a068330166661b431a@35.186.147.119:30303&quot;,
+     &quot;enode://eb74bcb909db025d60dd06151e608867bc5ffda454a4e13568867d2635ac481a49aea7f1b1a0845b71b2363d385394291e983489e6c52fcba5ee603cb0178555@35.197.153.143:30303&quot;,
+     &quot;enode://374fd3c0eec3e279122ad87bbc4bb729c055a42e7ce7b3988b55101a9b419aef5ba55d0727ec336fac3e64cd3ae5cb49d44404c463981db6b5bde6de12265aad@35.198.202.233:30303&quot;,
+     &quot;enode://399a27c102949a776e0e0ec12f559fca18e2b4044af3f8180a0f1fb5bcaa293b894d020f5742175422341a0f38c53e12adec286fe654db10ce11ade97cd06943@35.197.133.117:30303&quot;]
+</pre></div>
+</div>
+</div>
+<div class="section" id="access-stats-stats-nexty-io">
+<h2>Access Stats (stats.nexty.io)<a class="headerlink" href="#access-stats-stats-nexty-io" title="Permalink to this headline">¶</a></h2>
+<p>Check your node by nodename on brower:</p>
+<img alt="../_images/stats.png" src="../_images/stats.png" />
+</div>
+<div class="section" id="access-explorer-explorer-nexty-io">
+<h2>Access Explorer (explorer.nexty.io)<a class="headerlink" href="#access-explorer-explorer-nexty-io" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/explorer.png" src="../_images/explorer.png" />
+</div>
+<div class="section" id="api">
+<h2>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h2>
+<ol class="loweralpha simple">
+<li><p>eth_sendTransaction</p></li>
+</ol>
+<p>Creates new message call transaction or a contract creation, if the data field contains code.</p>
+<p>Parameters</p>
+<blockquote>
+<div><blockquote>
+<div><p>Object - The transaction object</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>from: DATA, 20 Bytes - The address the transaction is send from.</p></li>
+<li><p>to: DATA, 20 Bytes - (optional when creating new contract) The address the transaction is directed to.</p></li>
+<li><p>gas: QUANTITY - (optional, default: 90000) Integer of the gas provided for the transaction execution. It will return unused gas.</p></li>
+<li><p>gasPrice: QUANTITY - (optional, default: To-Be-Determined) Integer of the gasPrice used for each paid gas</p></li>
+<li><p>value: QUANTITY - (optional) Integer of the value sent with this transaction</p></li>
+<li><p>data: DATA - The compiled code of a contract OR the hash of the invoked method signature and encoded parameters.</p></li>
+<li><p>nonce: QUANTITY - (optional) Integer of a nonce. This allows to overwrite your own pending transactions that use the same nonce.</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>  <span class="o">&gt;</span> <span class="nx">params</span><span class="o">:</span> <span class="p">[{</span>
+ <span class="s2">&quot;from&quot;</span><span class="o">:</span> <span class="s2">&quot;0xb60e8dd61c5d32be8058bb8eb970870f07233155&quot;</span><span class="p">,</span>
+ <span class="s2">&quot;to&quot;</span><span class="o">:</span> <span class="s2">&quot;0xd46e8dd67c5d32be8058bb8eb970870f07244567&quot;</span><span class="p">,</span>
+ <span class="s2">&quot;gas&quot;</span><span class="o">:</span> <span class="s2">&quot;0x76c0&quot;</span><span class="p">,</span> <span class="c1">// 30400</span>
+ <span class="s2">&quot;gasPrice&quot;</span><span class="o">:</span> <span class="s2">&quot;0x9184e72a000&quot;</span><span class="p">,</span> <span class="c1">// 10000000000000</span>
+ <span class="s2">&quot;value&quot;</span><span class="o">:</span> <span class="s2">&quot;0x9184e72a&quot;</span><span class="p">,</span> <span class="c1">// 2441406250</span>
+ <span class="s2">&quot;data&quot;</span><span class="o">:</span> <span class="s2">&quot;0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675&quot;</span>
+<span class="p">}]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<p>DATA, 32 Bytes - the transaction hash, or the zero hash if the transaction is not yet available.</p>
+<p>Example</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="nx">curl</span> <span class="o">-</span><span class="nx">X</span> <span class="nx">POST</span> <span class="o">--</span><span class="nx">data</span> <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_sendTransaction&quot;,&quot;params&quot;:[{see above}],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span><span class="mi">1</span><span class="p">,</span>
+  <span class="s2">&quot;jsonrpc&quot;</span><span class="o">:</span> <span class="s2">&quot;2.0&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;result&quot;</span><span class="o">:</span> <span class="s2">&quot;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&quot;</span><span class="p">}</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="2">
+<li><p>eth_sendRawTransaction</p></li>
+</ol>
+<p>Creates new message call transaction for signed transactions.</p>
+<p>Parameters</p>
+<p>DATA, The signed transaction data.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="nx">params</span><span class="o">:</span> <span class="p">[</span><span class="s2">&quot;0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<p>DATA, 32 Bytes - the transaction hash, or the zero hash if the transaction is not yet available.</p>
+<p>Example</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="nx">curl</span> <span class="o">-</span><span class="nx">X</span> <span class="nx">POST</span> <span class="o">--</span><span class="nx">data</span> <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_sendRawTransaction&quot;,&quot;params&quot;:[{see above}],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>      <span class="o">&gt;</span>       <span class="p">{</span>
+<span class="s2">&quot;id&quot;</span><span class="o">:</span><span class="mi">1</span><span class="p">,</span>
+<span class="s2">&quot;jsonrpc&quot;</span><span class="o">:</span> <span class="s2">&quot;2.0&quot;</span><span class="p">,</span>
+<span class="s2">&quot;result&quot;</span><span class="o">:</span> <span class="s2">&quot;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&quot;</span>
+              <span class="p">}</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="3">
+<li><p>eth_getBlockByHash</p></li>
+</ol>
+<p>Returns information about a block by hash.</p>
+<dl class="simple">
+<dt>Parameters</dt><dd><ol class="arabic simple">
+<li><p>DATA, 32 Bytes - Hash of a block.</p></li>
+<li><p>Boolean - If true it returns the full transaction objects, if false only the hashes of the transactions.</p></li>
+</ol>
+</dd>
+</dl>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>     <span class="o">&gt;</span> <span class="nx">params</span><span class="o">:</span> <span class="p">[</span>
+<span class="s1">&#39;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&#39;</span><span class="p">,</span>
+<span class="kc">true</span>
+     <span class="p">]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<dl class="simple">
+<dt>Object - A block object, or null when no block was found:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">number:</span></code> QUANTITY - the block number. null when its pending block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hash:</span></code> DATA, 32 Bytes - hash of the block. null when its pending block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">parentHash</span></code> DATA, 32 Bytes - hash of the parent block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nonce:</span></code> DATA, 8 Bytes - hash of the generated proof-of-work. null when its pending block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sha3Uncles:</span></code> DATA, 32 Bytes - SHA3 of the uncles data in the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">logsBloom:</span></code> DATA, 256 Bytes - the bloom filter for the logs of the block. null when its pending block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">transactionsRoot:</span></code> DATA, 32 Bytes - the root of the transaction trie of the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stateRoot:</span></code> DATA, 32 Bytes - the root of the final state trie of the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">receiptsRoot:</span></code> DATA, 32 Bytes - the root of the receipts trie of the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">miner:</span></code> DATA, 20 Bytes - the address of the beneficiary to whom the mining rewards were given.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">difficulty:</span></code> QUANTITY - integer of the difficulty for this block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">totalDifficulty:</span></code> QUANTITY - integer of the total difficulty of the chain until this block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">extraData:</span></code> DATA - the “extra data” field of this block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">size:</span></code> QUANTITY - integer the size of this block in bytes.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gasLimit:</span></code> QUANTITY - the maximum gas allowed in this block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gasUsed:</span></code> QUANTITY - the total used gas by all transactions in this block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">timestamp:</span></code> QUANTITY - the unix timestamp for when the block was collated.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">transactions:</span></code> Array - Array of transaction objects, or 32 Bytes transaction hashes depending on the last given parameter.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">uncles:</span></code> Array - Array of uncle hashes.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Example</p>
+<ul class="simple">
+<li><p>Request</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> curl -X POST --data <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_getBlockByHash&quot;,&quot;params&quot;:[&quot;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&quot;, true],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Result</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> <span class="o">{</span>
+<span class="go">     &quot;id&quot;:1,</span>
+<span class="go">     &quot;jsonrpc&quot;:&quot;2.0&quot;,</span>
+<span class="go">     &quot;result&quot;: {</span>
+<span class="go">         &quot;number&quot;: &quot;0x1b4&quot;, // 436</span>
+<span class="go">         &quot;hash&quot;: &quot;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&quot;,</span>
+<span class="go">         &quot;parentHash&quot;: &quot;0x9646252be9520f6e71339a8df9c55e4d7619deeb018d2a3f2d21fc165dde5eb5&quot;,</span>
+<span class="go">         &quot;nonce&quot;: &quot;0xe04d296d2460cfb8472af2c5fd05b5a214109c25688d3704aed5484f9a7792f2&quot;,</span>
+<span class="go">         &quot;sha3Uncles&quot;: &quot;0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347&quot;,</span>
+<span class="go">         &quot;logsBloom&quot;: &quot;0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331&quot;,</span>
+<span class="go">         &quot;transactionsRoot&quot;: &quot;0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421&quot;,</span>
+<span class="go">         &quot;stateRoot&quot;: &quot;0xd5855eb08b3387c0af375e9cdb6acfc05eb8f519e419b874b6ff2ffda7ed1dff&quot;,</span>
+<span class="go">         &quot;miner&quot;: &quot;0x4e65fda2159562a496f9f3522f89122a3088497a&quot;,</span>
+<span class="go">         &quot;difficulty&quot;: &quot;0x027f07&quot;, // 163591</span>
+<span class="go">         &quot;totalDifficulty&quot;:  &quot;0x027f07&quot;, // 163591</span>
+<span class="go">         &quot;extraData&quot;: &quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;,</span>
+<span class="go">         &quot;size&quot;:  &quot;0x027f07&quot;, // 163591</span>
+<span class="go">         &quot;gasLimit&quot;: &quot;0x9f759&quot;, // 653145</span>
+<span class="go">         &quot;gasUsed&quot;: &quot;0x9f759&quot;, // 653145</span>
+<span class="go">         &quot;timestamp&quot;: &quot;0x54e34e8e&quot; // 1424182926</span>
+<span class="go">         &quot;transactions&quot;: [{...},{ ... }]</span>
+<span class="go">         &quot;uncles&quot;: [&quot;0x1606e5...&quot;, &quot;0xd5145a9...&quot;]</span>
+<span class="go">       }</span>
+<span class="go">     }</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="4">
+<li><p>eth_getBlockByNumber</p></li>
+</ol>
+<p>Returns information about a block by block number.</p>
+<dl class="simple">
+<dt>Parameters</dt><dd><ol class="arabic simple">
+<li><p>QUANTITY|TAG - integer of a block number, or the string “earliest”, “latest” or “pending”, as in the default block parameter.</p></li>
+<li><p>Boolean - If true it returns the full transaction objects, if false only the hashes of the transactions.</p></li>
+</ol>
+</dd>
+</dl>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> params: <span class="o">[</span>
+<span class="go">&#39;0x1b4&#39;, // 436</span>
+<span class="go">true</span>
+<span class="go">     ]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<p>See eth_getBlockByHash</p>
+<p>Example</p>
+<ul class="simple">
+<li><p>Request</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> curl -X POST --data <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_getBlockByNumber&quot;,&quot;params&quot;:[&quot;0x1b4&quot;, true],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Result</p></li>
+</ul>
+<p>see eth_getBlockByHash</p>
+<ol class="loweralpha simple" start="5">
+<li><p>eth_getTransactionCount</p></li>
+</ol>
+<p>Returns the number of transactions sent from an address.</p>
+<dl class="simple">
+<dt>Parameters</dt><dd><ol class="arabic simple">
+<li><p>DATA, 20 Bytes - address.</p></li>
+<li><p>QUANTITY|TAG - integer block number, or the string “latest”, “earliest” or “pending”, see the default block parameter</p></li>
+</ol>
+</dd>
+</dl>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> params: <span class="o">[</span>
+<span class="go">&#39;0x407d73d8a49eeb85d32cf465507dd71d507100c1&#39;,</span>
+<span class="go">&#39;latest&#39; // state at the latest block</span>
+<span class="go">     ]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<p>QUANTITY - integer of the number of transactions send from this address.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> curl -X POST --data <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_getTransactionCount&quot;,&quot;params&quot;:[&quot;0x407d73d8a49eeb85d32cf465507dd71d507100c1&quot;,&quot;latest&quot;],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go"> &gt; {</span>
+<span class="go">&quot;id&quot;:1,</span>
+<span class="go">&quot;jsonrpc&quot;: &quot;2.0&quot;,</span>
+<span class="go">&quot;result&quot;: &quot;0x1&quot; // 1</span>
+<span class="go">      }</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="6">
+<li><p>eth_blockNumber</p></li>
+</ol>
+<p>Returns the number of most recent block.</p>
+<p>Parameters</p>
+<p>[none]</p>
+<p>Returns</p>
+<p>QUANTITY - integer of the current block number the client is on.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> curl -X POST --data <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_blockNumber&quot;,&quot;params&quot;:[],&quot;id&quot;:83}&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go"> &gt; {</span>
+<span class="go">&quot;id&quot;:83,</span>
+<span class="go">&quot;jsonrpc&quot;: &quot;2.0&quot;,</span>
+<span class="go">&quot;result&quot;: &quot;0x4b7&quot; // 1207</span>
+<span class="go">      }</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="7">
+<li><p>eth_getBalance</p></li>
+</ol>
+<p>Returns the balance of the account of given address.</p>
+<dl class="simple">
+<dt>Parameters</dt><dd><ol class="arabic simple">
+<li><p>DATA, 20 Bytes - address to check for balance.</p></li>
+<li><p>QUANTITY|TAG - integer block number, or the string “latest”, “earliest” or “pending”, see the default block parameter</p></li>
+</ol>
+</dd>
+</dl>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> params: <span class="o">[</span>
+<span class="go">&#39;0x407d73d8a49eeb85d32cf465507dd71d507100c1&#39;,</span>
+<span class="go">&#39;latest&#39;</span>
+<span class="go">     ]</span>
+</pre></div>
+</div>
+<p>Returns</p>
+<p>QUANTITY - integer of the current balance in wei.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> curl -X POST --data <span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_getBalance&quot;,&quot;params&quot;:[&quot;0x407d73d8a49eeb85d32cf465507dd71d507100c1&quot;, &quot;latest&quot;],&quot;id&quot;:1}&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go"> &gt; {</span>
+<span class="go">&quot;id&quot;:1,</span>
+<span class="go">&quot;jsonrpc&quot;: &quot;2.0&quot;,</span>
+<span class="go">&quot;result&quot;: &quot;0x0234c8a3397aab58&quot; // 158972490234375000</span>
+<span class="go">      }</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="8">
+<li><p>The default block parameter</p></li>
+</ol>
+<p>The following methods have an extra default block parameter:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>eth_getBalance</p></li>
+<li><p>eth_getCode</p></li>
+<li><p>eth_getTransactionCount</p></li>
+</ul>
+</div></blockquote>
+<p>When requests are made that act on the state of ethereum, the last default block parameter determines the height of the block.
+The following options are possible for the defaultBlock parameter:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>HEX String - an integer block number</p></li>
+<li><p>String “earliest” for the earliest/genesis block</p></li>
+<li><p>String “latest” - for the latest mined block</p></li>
+<li><p>String “pending” - for the pending state/transactions</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="web3">
+<h2>Web3<a class="headerlink" href="#web3" title="Permalink to this headline">¶</a></h2>
+<ol class="loweralpha simple">
+<li><p>Create new wallet</p></li>
+</ol>
+<p>Keythereum is a JavaScript tool to generate, import and export Ethereum keys. This provides a simple way to use the same account locally and in web wallets. It can be used for verifiable cold storage wallets.</p>
+<p>Keythereum uses the same key derivation functions (PBKDF2-SHA256 or scrypt), symmetric ciphers (AES-128-CTR or AES-128-CBC), and message authentication codes as nexty. You can export your generated key to file, copy it to your data directory’s keystore, and immediately start using it in your local Ethereum client.</p>
+<p>For detail see <a class="reference external" href="https://github.com/ethereumjs/keythereum">https://github.com/ethereumjs/keythereum</a></p>
+<ol class="loweralpha simple" start="2">
+<li><p>web3.eth.sendTransaction</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">web3.eth.sendTransaction(transactionObject</span> <span class="pre">[,</span> <span class="pre">callback])</span></code></p>
+<p>Sends a transaction to the network.</p>
+<p>Parameters</p>
+<ol class="arabic simple">
+<li><p>Object - The transaction object to send:</p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">from:</span></code> String - The address for the sending account.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">to:</span></code> String - (optional) The destination address of the message, left undefined for a contract-creation transaction.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">value:</span></code> Number|String|BigNumber - (optional) The value transferred for the transaction in Wei, also the endowment if it’s a contract-creation transaction.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gas:</span></code> Number|String|BigNumber - (optional, default: To-Be-Determined) The amount of gas to use for the transaction (unused gas is refunded).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gasPrice:</span></code> Number|String|BigNumber - (optional, default: To-Be-Determined) The price of gas for this transaction in wei, defaults to the mean network gas price.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">data:</span></code> String - (optional) Either a byte string containing the associated data of the message, or in the case of a contract-creation transaction, the initialisation code.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nonce:</span></code> Number - (optional) Integer of a nonce. This allows to overwrite your own pending transactions that use the same nonce.</p></li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p>Function - (optional) If you pass a callback the HTTP request is made asynchronous. See this note for details.</p></li>
+</ol>
+<p>Returns</p>
+<p>String - The 32 Bytes transaction hash as HEX string.</p>
+<p>Example</p>
+<p>// compiled solidity source code using <a class="reference external" href="https://chriseth.github.io/cpp-ethereum/">https://chriseth.github.io/cpp-ethereum/</a></p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> var <span class="nv">code</span> <span class="o">=</span> <span class="s2">&quot;603d80600c6000396000f3007c01000000000000000000000000000000000000000000000000000000006000350463c6888fa18114602d57005b6007600435028060005260206000f3&quot;</span><span class="p">;</span>
+
+<span class="go">web3.eth.sendTransaction({data: code}, function(err, transactionHash) {</span>
+<span class="go">  if (!err)</span>
+
+<span class="go">console.log(transactionHash); // &quot;0x7f9fade1c0d57a7af66ab4ead7c2eb7b11a91385&quot;</span>
+<span class="go">});</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="3">
+<li><p>web3.eth.sendRawTransaction</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">web3.eth.sendRawTransaction(signedTransactionData</span> <span class="pre">[,</span> <span class="pre">callback])</span></code></p>
+<p>Parameters</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>String - Signed transaction data in HEX format</p></li>
+<li><p>Function - (optional) If you pass a callback the HTTP request is made asynchronous.</p></li>
+</ol>
+</div></blockquote>
+<p>Returns</p>
+<p>String - The 32 Bytes transaction hash as HEX string.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">        &gt; var Tx = require(&#39;ethereumjs-tx&#39;);</span>
+<span class="go">var privateKey = new Buffer(&#39;e331b6d69882b4cb4ea581d88e0b604039a3de5967688d3dcffdd2270c0fd109&#39;, &#39;hex&#39;)</span>
+
+<span class="go">var rawTx = {</span>
+<span class="go">  nonce: &#39;0x00&#39;,</span>
+<span class="go">  gasPrice: &#39;0x09184e72a000&#39;,</span>
+<span class="go">  gasLimit: &#39;0x2710&#39;,</span>
+<span class="go">  to: &#39;0x0000000000000000000000000000000000000000&#39;,</span>
+<span class="go">  value: &#39;0x00&#39;,</span>
+<span class="go">  data: &#39;0x7f7465737432000000000000000000000000000000000000000000000000000000600057&#39;</span>
+<span class="go">}</span>
+
+<span class="go">var tx = new Tx(rawTx);</span>
+<span class="go">tx.sign(privateKey);</span>
+
+<span class="go">var serializedTx = tx.serialize();</span>
+
+<span class="go">//console.log(serializedTx.toString(&#39;hex&#39;));</span>
+<span class="go">//f889808609184e72a00082271094000000000000000000000000000000000000000080a47f74657374320000000000000000000000000000000000000000000000000000006000571ca08a8bbf888cfa37bbf0bb965423625641fc956967b81d12e23709cead01446075a01ce999b56a8a88504be365442ea61239198e23d1fce7d00fcfc5cd3b44b7215f</span>
+
+<span class="go">web3.eth.sendRawTransaction(&#39;0x&#39; + serializedTx.toString(&#39;hex&#39;), function(err, hash) {</span>
+<span class="go">  if (!err)</span>
+<span class="go">    console.log(hash); // &quot;0x7f9fade1c0d57a7af66ab4ead79fade1c0d57a7af66ab4ead7c2c2eb7b11a91385&quot;</span>
+<span class="go">});</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="4">
+<li><p>web3.eth.sign</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">web3.eth.sign(address,</span> <span class="pre">dataToSign,</span> <span class="pre">[,</span> <span class="pre">callback])</span></code></p>
+<p>Signs data from a specific account. This account needs to be unlocked.</p>
+<dl class="simple">
+<dt>Parameters</dt><dd><ol class="arabic simple">
+<li><p>String - Address to sign with.</p></li>
+<li><p>String - Data to sign.</p></li>
+<li><p>Function - (optional) If you pass a callback the HTTP request is made asynchronous.</p></li>
+</ol>
+</dd>
+</dl>
+<p>Returns</p>
+<p>String - The signed data.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> var <span class="nv">result</span> <span class="o">=</span> web3.eth.sign<span class="o">(</span><span class="s2">&quot;0x135a7de83802408321b74c322f8558db1679ac20&quot;</span>,
+<span class="go"> &quot;0x9dd2c369a187b4e6b9c402f030e50743e619301ea62aa4c0737d4ef7e10a3d49&quot;); // second argument is web3.sha3(&quot;xyz&quot;)</span>
+<span class="go">     console.log(result); // &quot;0x30755ed65396facf86c53e6217c52b4daebe72aa4941d89635409de4c9c7f9466d4e9aaec7977f05e923889b33c0d0dd27d7226b6e6f56ce737465c5cfd04be400&quot;</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="5">
+<li><p>web3.eth.getTransaction</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">web3.eth.getTransaction(transactionHash</span> <span class="pre">[,</span> <span class="pre">callback])</span></code></p>
+<p>Returns a transaction matching the given transaction hash.</p>
+<p>Parameters</p>
+<ol class="arabic simple">
+<li><p>String - The transaction hash.</p></li>
+<li><p>Function - (optional) If you pass a callback the HTTP request is made asynchronous.</p></li>
+</ol>
+<p>Returns</p>
+<p>Object - A transaction object its hash transactionHash:
+- <code class="docutils literal notranslate"><span class="pre">hash:</span></code> String, 32 Bytes - hash of the transaction.
+- <code class="docutils literal notranslate"><span class="pre">nonce:</span></code> Number - the number of transactions made by the sender prior to this one.
+- <code class="docutils literal notranslate"><span class="pre">blockHash:</span></code> String, 32 Bytes - hash of the block where this transaction was in. null when its pending.
+- <code class="docutils literal notranslate"><span class="pre">blockNumber:</span></code> Number - block number where this transaction was in. null when its pending.
+- <code class="docutils literal notranslate"><span class="pre">transactionIndex:</span></code> Number - integer of the transactions index position in the block. nullwhen its pending.
+- <code class="docutils literal notranslate"><span class="pre">from:</span></code> String, 20 Bytes - address of the sender.
+- <code class="docutils literal notranslate"><span class="pre">to:</span></code> String, 20 Bytes - address of the receiver. null when its a contract creation transaction.
+- <code class="docutils literal notranslate"><span class="pre">value:</span></code> BigNumber - value transferred in Wei.
+- <code class="docutils literal notranslate"><span class="pre">gasPrice:</span></code> BigNumber - gas price provided by the sender in Wei.
+- <code class="docutils literal notranslate"><span class="pre">gas:</span></code> Number - gas provided by the sender.
+- <code class="docutils literal notranslate"><span class="pre">input:</span></code> String - the data sent along with the transaction.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> var <span class="nv">transaction</span> <span class="o">=</span> web3.eth.getTransaction<span class="o">(</span><span class="s1">&#39;0x9fc76417374aa880d4449a1f7f31ec597f00b1f6f3dd2d66f4c9c6c445836d8b&#39;</span><span class="o">)</span><span class="p">;</span>
+<span class="go">console.log(transaction);</span>
+<span class="go">/*</span>
+<span class="go">{</span>
+<span class="go">  &quot;hash&quot;: &quot;0x9fc76417374aa880d4449a1f7f31ec597f00b1f6f3dd2d66f4c9c6c445836d8b&quot;,</span>
+<span class="go">  &quot;nonce&quot;: 2,</span>
+<span class="go">  &quot;blockHash&quot;: &quot;0xef95f2f1ed3ca60b048b4bf67cde2195961e0bba6f70bcbea9a2c4e133e34b46&quot;,</span>
+<span class="go">  &quot;blockNumber&quot;: 3,</span>
+<span class="go">  &quot;transactionIndex&quot;: 0,</span>
+<span class="go">  &quot;from&quot;: &quot;0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b&quot;,</span>
+<span class="go">  &quot;to&quot;: &quot;0x6295ee1b4f6dd65047762f924ecd367c17eabf8f&quot;,</span>
+<span class="go">  &quot;value&quot;: BigNumber,</span>
+<span class="go">  &quot;gas&quot;: 314159,</span>
+<span class="go">  &quot;gasPrice&quot;: BigNumber,</span>
+<span class="go">  &quot;input&quot;: &quot;0x57cb2fc4&quot;</span>
+<span class="go">}</span>
+<span class="go">*/</span>
+</pre></div>
+</div>
+<ol class="loweralpha simple" start="6">
+<li><p>web3.eth.getBalance</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">web3.eth.getBalance(addressHexString</span> <span class="pre">[,</span> <span class="pre">defaultBlock]</span> <span class="pre">[,</span> <span class="pre">callback])</span></code></p>
+<p>Get the balance of an address at a given block.</p>
+<p>Parameters</p>
+<ol class="arabic simple">
+<li><p>String - The address to get the balance of.</p></li>
+<li><p>Number|String - (optional)</p></li>
+<li><p>Function - (optional) If you pass a callback the HTTP request is made asynchronous.</p></li>
+</ol>
+<p>Returns</p>
+<p>String - A BigNumber instance of the current balance for the given address in wei.</p>
+<p>Example</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> var <span class="nv">balance</span> <span class="o">=</span> web3.eth.getBalance<span class="o">(</span><span class="s2">&quot;0x407d73d8a49eeb85d32cf465507dd71d507100c1&quot;</span><span class="o">)</span><span class="p">;</span>
+<span class="go">console.log(balance); // instanceof BigNumber</span>
+<span class="go">console.log(balance.toString(10)); // &#39;1000000000000&#39;</span>
+<span class="go">console.log(balance.toNumber()); // 1000000000000</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../nexty-mobile-wallet/index.html" class="btn btn-neutral float-right" title="Nexty Wallet" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="linux-version.html" class="btn btn-neutral float-left" title="Linux version" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Nexty platform
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

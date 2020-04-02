@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Absorption Mechanism</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Price Evaluation" href="price-evaluation.html" />
+    <link rel="prev" title="Nexty Stabilization" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nexty Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ezpay/index.html">EzPay Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gateway/index.html">Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multisig-wallet/index.html">Multisig Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-endpoint/index.html">Nexty Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-mobile-wallet/index.html">Nexty Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-poolmaster/index.html">Nexty Poolmaster</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Nexty Stabilization</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Absorption Mechanism</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#passive-absorption-pa">Passive Absorption (PA)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#active-absorption-aa">Active Absorption (AA)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#preemptive-absorption-pea">Preemptive Absorption (PeA)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#auction-for-initiator">Auction for Initiator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#preemptive-absorption-process">Preemptive Absorption Process</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-lockdown">The Lockdown</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#effects">Effects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="price-evaluation.html">Price Evaluation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../start-a-sealing-node/index.html">Start a Sealing Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexty Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Nexty Stabilization</a> &raquo;</li>
+        
+      <li>Absorption Mechanism</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/nexty-stabilization/absorption-mechanism.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="absorption-mechanism">
+<h1>Absorption Mechanism<a class="headerlink" href="#absorption-mechanism" title="Permalink to this headline">¶</a></h1>
+<p>No NewSD is mint out of thin air, nor to anyone will. NewSD must be exchanged with NTY by the market demand itself. There are 3 conditions for an absorption to be triggered.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Passive</p></li>
+<li><p>Active</p></li>
+<li><p>Preemptive</p></li>
+</ol>
+</div></blockquote>
+<div class="section" id="passive-absorption-pa">
+<h2>Passive Absorption (PA)<a class="headerlink" href="#passive-absorption-pa" title="Permalink to this headline">¶</a></h2>
+<p>Passive absorption is triggered when there is no absorption for a week. This is the most defensive supply absorption mechanism to make sure the supply will continuously adjust to even the smallest change of demand, when the network is mature and well adopted.</p>
+<p>For Passive and Active conditions, <em>AbsorptionRate</em> is always the the Current Median Price derivation.</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">PriceDerivation</span> <span class="pre">=</span> <span class="pre">MedianPrice</span> <span class="pre">-</span> <span class="pre">1.0</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">AbsorptionRate</span> <span class="pre">=</span> <span class="pre">X/S</span> <span class="pre">=</span> <span class="pre">PriceDerivation</span></code></p>
+</div></blockquote>
+<p>Where X is the amount of NewSD to absorb, and S is the current supply of NewSD.</p>
+</div>
+<div class="section" id="active-absorption-aa">
+<h2>Active Absorption (AA)<a class="headerlink" href="#active-absorption-aa" title="Permalink to this headline">¶</a></h2>
+<p>Active absorption is triggered when the price level is disruptively changed in an exponential ways, to quickly adjust to a new demand waves.</p>
+<p>With</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">DerivationRate</span> <span class="pre">=</span> <span class="pre">PriceDerivation</span> <span class="pre">/</span> <span class="pre">LastAbsorptionRate</span></code></p>
+</div></blockquote>
+<p>An active absorption is triggered when</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">DerivationRate</span> <span class="pre">&gt;=</span> <span class="pre">2</span> <span class="pre">OR</span> <span class="pre">DerivationRate</span> <span class="pre">&lt;=</span> <span class="pre">-1/2</span></code></p>
+</div></blockquote>
+<p>When the price keeps going in the same direction (up or down), the next Active Absorption Rate must be at least two times as large as the last one. This condition allows the network quickly adjust to the sudden change of market demand, but still makes it exponentially expensive for adversaries to manipulate the price of NewSD.</p>
+<p>When the price is changing in one direction (from up to down, or vice versa), the next Active Absorption Rate must be at least half as large as the last one, in opposite direction. This change of direction allow the network to wind down the absorption in a stabilizing market.</p>
+<img alt="../_images/NewSD-Absorption.png" src="../_images/NewSD-Absorption.png" />
+</div>
+<div class="section" id="preemptive-absorption-pea">
+<h2>Preemptive Absorption (PeA)<a class="headerlink" href="#preemptive-absorption-pea" title="Permalink to this headline">¶</a></h2>
+<p>This is the most complicated mechanism of absorption, but provide the necessary flexibility to adjust the supply without waiting for a price to be deviated too far from an anchoring value. Anyone can initialize a preemptive absorption, but with a stake and a price. PeA requires an voting auction before and Lockdown after the absorption.</p>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><p>No other <em>PeA</em> or Lockdown is in active. (Other 2 absorptions are allowed)</p></li>
+<li><p>Absorption Rate <code class="docutils literal notranslate"><span class="pre">(X/S)</span> <span class="pre">&gt;=</span> <span class="pre">4</span> <span class="pre">*</span> <span class="pre">MedianPriceRate</span></code>. (S is the current supply of NewSD)</p></li>
+<li><p>An amount of NTY equal to X/2 NewSD has to be locked for The Lockdown Duration. (for slashing condition)</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="auction-for-initiator">
+<h3>Auction for Initiator<a class="headerlink" href="#auction-for-initiator" title="Permalink to this headline">¶</a></h3>
+<p>The Auction for Initiator starts when the first intiator submits her proposal on chain. Proposal can only start after the last Pre-emptive Absorption finished, regardless of the other 2 absorptions. In one week of Auction, more candidates can submit their proposals, and NTY holders will vote for them as soon as the proposal is submitted. Each vote can have the following values:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Proposal ID</p></li>
+<li><p>Vote: Approve or Reject</p></li>
+<li><p>LockdownDuration in blocks (optional), a consensus policy parameter, initialized with <code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">*</span> <span class="pre">PriceSamplingDuration</span></code>.</p></li>
+<li><p>SlashingRate (optional) - the rate of locked NTY will be burnt, another consensus policy parameter, initialized with <code class="docutils literal notranslate"><span class="pre">AbsorptionDuration/LockdownDuration</span></code>.</p></li>
+</ul>
+</div></blockquote>
+<p>LockdownDuration or SlashingRate is included in the Vote only when the voter want to change the parameters, otherwise, the current value is used for the next PeA.</p>
+<p>After the Auction ends, the proposal with the highest Approvals/Rejections rate and Approvals &gt; Rejections wins the Auction, and init a new Pre-emptive Absorption.</p>
+</div>
+<div class="section" id="preemptive-absorption-process">
+<h3>Preemptive Absorption Process<a class="headerlink" href="#preemptive-absorption-process" title="Permalink to this headline">¶</a></h3>
+<p>After the Voting Auction success, a new Pre-emptive Absorption is triggered with (X, LockdownDuration, SlashingRate). Where X is the amount of NewSD will be absorbed.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>The absorption process is exactly the same with Active and Passive Absorption.</p></li>
+<li><p>PeA is treated exactly as Active and Passive Absorption: will override any on-going AA/PA, and will be overriden by new AA/PA if their condition is met.</p></li>
+<li><p>A Lockdown is started independently with the absorption process. Lockdown prevents new PeA, but does not prevent new AA/PA. Lockdown is not canceled/aborted when by new AA/PA.</p></li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="the-lockdown">
+<h3>The Lockdown<a class="headerlink" href="#the-lockdown" title="Permalink to this headline">¶</a></h3>
+<p>During the Lockdown time:</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">Y/2</span> <span class="pre">=</span> <span class="pre">NTYAmountToFill(X/2)</span></code> is locked.</p>
+<p>Any block with <code class="docutils literal notranslate"><span class="pre">Sign(d)</span> <span class="pre">=</span> <span class="pre">-Sign(X)</span></code>, an amount of NTY is burnt</p>
+<p><code class="docutils literal notranslate"><span class="pre">d</span> <span class="pre">=</span> <span class="pre">MedianPriceDeviation</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">D</span> <span class="pre">=</span> <span class="pre">X/S</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">NTYToBurn</span> <span class="pre">=</span> <span class="pre">|d/D|</span> <span class="pre">*</span> <span class="pre">SlashingRate/LockdownDuration</span></code></p>
+</div></blockquote>
+</div>
+<div class="section" id="effects">
+<h3>Effects<a class="headerlink" href="#effects" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><p>X/2 of NewSD will be absorbed (just like active/passive absorption).</p></li>
+<li><p>For each order is filled above, one more order with the same value is filled for Initiator.</p></li>
+<li><p>For the next 2 weeks after the Pre-emptive Absorption is triggered.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="conclusion">
+<h3>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h3>
+<p>Preemptive Absorption initiators are market makers, “bank” reserves, OTC dealers which are in control of large flows of money (NewSD). Not sitting outside of the system nor being centralized in anyway, they profit themselves by reserving and trading large amount of money (NewSD) while providing a high level of liquidity and stability to the network. As part of the decentralized system, anyone can be the Initiator, but without a large amount of fund, everyone can still be traders. NTY holders, initiators and traders together form a decentralized circle of stabilization, where each and everyone can profit themselves while provide the liquidity of NewSD as a service to the user of the network.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="price-evaluation.html" class="btn btn-neutral float-right" title="Price Evaluation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Nexty Stabilization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Nexty platform
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
