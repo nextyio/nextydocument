@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Nexty Stabilization</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Absorption Mechanism" href="absorption-mechanism.html" />
+    <link rel="prev" title="Create A Pool" href="../nexty-poolmaster/createpool.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nexty Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ezpay/index.html">EzPay Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gateway/index.html">Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multisig-wallet/index.html">Multisig Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-endpoint/index.html">Nexty Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-mobile-wallet/index.html">Nexty Wallet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexty-poolmaster/index.html">Nexty Poolmaster</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Nexty Stabilization</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="absorption-mechanism.html">Absorption Mechanism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="price-evaluation.html">Price Evaluation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../start-a-sealing-node/index.html">Start a Sealing Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frequently-asked-questions/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexty Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Nexty Stabilization</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/nexty-stabilization/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nexty-stabilization">
+<h1>Nexty Stabilization<a class="headerlink" href="#nexty-stabilization" title="Permalink to this headline">¶</a></h1>
+<p>Implementation of elastic stable coin designed by <a class="reference external" href="http://endur.io/">Endurio</a> for Nexty Platform as an ERC20 token.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>NewSD is the stablecoin that can be exchanged between users and Nexty services.</p></li>
+<li><p>NTY is the token that absorbs any fluctuation from NewSD, maintaining its peg.</p></li>
+</ul>
+</div></blockquote>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="absorption-mechanism.html">Absorption Mechanism</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="absorption-mechanism.html#passive-absorption-pa">Passive Absorption (PA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="absorption-mechanism.html#active-absorption-aa">Active Absorption (AA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="absorption-mechanism.html#preemptive-absorption-pea">Preemptive Absorption (PeA)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="price-evaluation.html">Price Evaluation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="price-evaluation.html#how-much-does-an-newsd-worth">How much does an NewSD worth?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="absorption-mechanism.html" class="btn btn-neutral float-right" title="Absorption Mechanism" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../nexty-poolmaster/createpool.html" class="btn btn-neutral float-left" title="Create A Pool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Nexty platform
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
